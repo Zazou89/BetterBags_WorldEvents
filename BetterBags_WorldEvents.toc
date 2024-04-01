@@ -4,7 +4,7 @@
 ## Version: 1.0.0
 ## Notes: Categories for all World Events Items
 ## Dependencies: BetterBags
-## X-Curse-Project-ID: 
+## X-Curse-Project-ID: 996347
 ## IconTexture: Interface\Icons\temp
 
 main.lua
