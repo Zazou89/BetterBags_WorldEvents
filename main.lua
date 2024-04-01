@@ -14,12 +14,6 @@ local Noblegarden = {
   
 }
 
-local allItems = {
-    Noblegarden,
-}
-
-for _, itemList in pairs(allItems) do
-    for _, ItemID in pairs(itemList) do
-        categories:AddItemToCategory(ItemID, "Battle Pet")
-    end
+for _, ItemID in pairs(itemList) do
+	categories:AddItemToCategory(ItemID, "Noblegarden")
 end
