@@ -42,7 +42,19 @@ local Noblegarden = {
     212985, --Spring Reveler's Turquoise Pants
     212698, --Spring Reveler's Turquoise Attire
     212699, --Spring Reveler's Turquoise Belt
-    212715, --Spring Reveler's Turquoise Sun Hat   
+    212715, --Spring Reveler's Turquoise Sun Hat
+    116357, --Poorly-Painted Egg
+    116358, --Intricately-Painted Egg
+    116359, --Magnificently-Painted Egg
+    141532, --Noblegarden Bunny
+    151804, --Black Tuxedo Pants
+    151806, --Elegant Dress
+    164922, --Blue Spring Circlet
+    164923, --Brown Spring Circlet
+    164924, --Yellow Spring Circlet
+    165802, --Noble Gardener's Hearthstone
+    188694, --Spring Florist's Pouch
+    204675  --A Drake's Big Basket of Eggs
 }
 
 for _, ItemID in pairs(Noblegarden) do
