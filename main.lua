@@ -54,7 +54,13 @@ local Noblegarden = {
     164924, --Yellow Spring Circlet
     165802, --Noble Gardener's Hearthstone
     188694, --Spring Florist's Pouch
-    204675  --A Drake's Big Basket of Eggs
+    204675, --A Drake's Big Basket of Eggs
+    216898, --Mallard Duck Disguise
+    216901, --White Duck Disguise
+    216890, --Black Duck Disguise
+    216897, --Brown Duck Disguise
+    216902, --Yellow Duck Disguise
+    216900, --Pink Duck Disguise
 }
 
 for _, ItemID in pairs(Noblegarden) do
