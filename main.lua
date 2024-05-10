@@ -157,6 +157,54 @@ local Darkmoonfaire = {
     71978,  --Darkmoon Bandage
 }
 
+local LunarFestival = {
+    74611, -- Festival Lantern
+    74610, -- Lunar Lantern
+    44919, -- Schematic: Firework Launcher
+    21741, -- Cluster Rocket Recipes
+    21100, -- Coin of Ancestry
+    21721, -- Moonglow
+    21746, -- Lucky Red Envelope
+    21730, -- Schematic: Blue Rocket Cluster
+    21733, -- Schematic: Large Blue Rocket Cluster
+    21728, -- Schematic: Large Green Rocket
+    21713, -- Elune's Candle
+    21154, -- Festival Dress
+    21538, -- Festive Pink Dress
+    21570, -- Cluster Launcher
+    21740, -- Small Rocket Recipes
+    21544, -- Festive Blue Pant Suit
+    21727, -- Schematic: Large Blue Rocket
+    21725, -- Schematic: Small Green Rocket
+    21571, -- Blue Rocket Cluster
+    21745, -- Elder's Moonstone
+    21747, -- Festival Firecracker
+    21540, -- Elune's Lantern
+    21539, -- Festive Purple Dress
+    44916, -- Pattern: Festival Dress
+    21724, -- Schematic: Small Blue Rocket
+    21726, -- Schematic: Small Red Rocket
+    21536, -- Elune Stone
+    21640, -- Lunar Festival Fireworks Pack
+    21541, -- Festive Black Pant Suit
+    21731, -- Schematic: Green Rocket Cluster
+    21734, -- Schematic: Large Green Rocket Cluster
+    21729, -- Schematic: Large Red Rocket
+    21735, -- Schematic: Large Red Rocket Cluster
+    21732, -- Schematic: Red Rocket Cluster
+    21537, -- Festival Dumplings
+    21542, -- Festival Suit
+    21743, -- Large Cluster Rocket Recipes
+    21742, -- Large Rocket Recipes
+    21711, -- Lunar Festival Invitation
+    21157, -- Festive Green Dress
+    21543, -- Festive Teal Pant Suit
+    44918, -- Schematic: Cluster Launcher
+    21744, -- Lucky Rocket Cluster
+    90000, -- Everlasting Horde Firework
+    89999  -- Everlasting Alliance Firework
+}
+
 --Loop
 for _, ItemID in pairs(Noblegarden) do
 	categories:AddItemToCategory(ItemID, "Noblegarden")
@@ -164,4 +212,8 @@ end
 
 for _, ItemID in pairs(Darkmoonfaire) do
 	categories:AddItemToCategory(ItemID, "Darkmoon Faire")
+end
+
+for _, ItemID in pairs(LunarFestival) do
+    categories:AddItemToCategory(ItemID, "Lunar Festival")
 end
