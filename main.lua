@@ -205,6 +205,9 @@ local LunarFestival = {
     89999  -- Everlasting Alliance Firework
 }
 
+local WoWRemixMoP = {
+}
+
 --Loop
 for _, ItemID in pairs(Noblegarden) do
 	categories:AddItemToCategory(ItemID, "Noblegarden")
@@ -215,5 +218,9 @@ for _, ItemID in pairs(Darkmoonfaire) do
 end
 
 for _, ItemID in pairs(LunarFestival) do
+    categories:AddItemToCategory(ItemID, "Lunar Festival")
+end
+
+for _, ItemID in pairs(WoWRemixMoP) do
     categories:AddItemToCategory(ItemID, "Lunar Festival")
 end
