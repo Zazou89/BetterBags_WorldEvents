@@ -2,6 +2,7 @@
 
 This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates categories for all World Events, including :
 
+- 🔥 WoW Remix : Mists of Pandaria
 - Noblegarden
 - Darkmoon Faire
 - Lunar Festival
