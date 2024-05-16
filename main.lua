@@ -206,49 +206,16 @@ local LunarFestival = {
 }
 
 local WoWRemixMoP = {
+    217930, --Nostwin's Voucher
+    211388, --Timerunner's Starter Kit
+    219218, --Timerunner's Starter Kit
+    219219, --Timerunner's Starter Kit
     -- Cache
     223908, --Minor Bronze Cache
     223909, --Lesser Bronze Cache
     223910, --Bronze Cache
     223911, --Greater Bronze Cache
     211279, --Cache of Infinite Treasure
-    --Cloak Threads
-    217722, --Thread of Experience
-    219264, --Temporal Thread of Experience
-    219273, --Perpetual Thread of Experience
-    219282, --Infinite Thread of Experience
-    210990, --Thread of Versatility
-    219263, --Temporal Thread of Versatility
-    219272, --Perpetual Thread of Versatility
-    219281, --Infinite Thread of Versatility
-    210989, --Thread of Mastery
-    219262, --Temporal Thread of Mastery
-    219271, --Perpetual Thread of Mastery
-    219280, --Infinite Thread of Mastery
-    210987, --Thread of Leech
-    219261, --Temporal Thread of Leech
-    219270, --Perpetual Thread of Leech
-    219279, --Infinite Thread of Leech
-    210986, --Thread of Speed
-    219260, --Temporal Thread of Speed
-    219269, --Perpetual Thread of Speed
-    219278, --Infinite Thread of Speed
-    210985, --Thread of Haste
-    219259, --Temporal Thread of Haste
-    219268, --Perpetual Thread of Haste
-    219277, --Infinite Thread of Haste
-    210984, --Thread of Critical Strike
-    219258, --Temporal Thread of Critical Strike
-    219267, --Perpetual Thread of Critical Strike
-    219276, --Infinite Thread of Critical Strike
-    210983, --Thread of Stamina
-    219257, --Temporal Thread of Stamina
-    219266, --Perpetual Thread of Stamina
-    219275, --Infinite Thread of Stamina
-    210982, --Thread of Power
-    219256, --Temporal Thread of Power
-    219265, --Perpetual Thread of Power
-    219274, --Infinite Thread of Power
     --Gear
     208555, --Timerunner's Idol
     208554, --Timerunner's Beacon
@@ -482,6 +449,28 @@ local WoWRemixMoP_prismaticgems = {
     220374, --Versatile Diamond
 }
 
+local WoWRemixMoP_Buff = {
+    217731, --Timeless Scroll of Mystic Power
+    217605, --Timeless Scroll of Intellect
+    217607, --Timeless Scroll of the Wild
+    217606, --Timeless Scroll of Fortitude
+    217608, --Timeless Scroll of Battle Shout
+    217730, --Timeless Scroll of Chaos
+    217901, --Timeless Drums
+  }
+  
+local WoWRemixMoP_Utility = {
+    217928, --Timeless Scroll of Resurrection
+    217929, --Timeless Scroll of Cleansing
+    217956, --Timeless Scroll of Summoning
+  }
+  
+local WoWRemixMoP_Consumable = {
+    217904, --Timerunner's Draught of Power
+    217905, --Timerunner's Draught of Health
+    211254, --Timerunner's Bandage
+  }
+
 --Loop
 for _, ItemID in pairs(Noblegarden) do
     categories:AddItemToCategory(ItemID, "Noblegarden")
@@ -500,17 +489,29 @@ for _, ItemID in pairs(WoWRemixMoP) do
 end
 
 for _, ItemID in pairs(WoWRemixMoP_metagems) do
-    categories:AddItemToCategory(ItemID, "Remix: Meta Gems")
+    categories:AddItemToCategory(ItemID, "Meta Gems")
 end
 
 for _, ItemID in pairs(WoWRemixMoP_cogwheelgems) do
-    categories:AddItemToCategory(ItemID, "Remix: Cogwheel Gems")
+    categories:AddItemToCategory(ItemID, "Cogwheel Gems")
 end
 
 for _, ItemID in pairs(WoWRemixMoP_tinkergems) do
-    categories:AddItemToCategory(ItemID, "Remix: Tinker Gems")
+    categories:AddItemToCategory(ItemID, "Tinker Gems")
 end
 
 for _, ItemID in pairs(WoWRemixMoP_prismaticgems) do
-    categories:AddItemToCategory(ItemID, "Remix: Prismatic Gems")
+    categories:AddItemToCategory(ItemID, "Prismatic Gems")
+end
+
+for _, ItemID in pairs(WoWRemixMoP_Buff) do
+    categories:AddItemToCategory(ItemID, "Enhancements")
+end
+
+for _, ItemID in pairs(WoWRemixMoP_Utility) do
+    categories:AddItemToCategory(ItemID, "Utilities")
+end
+
+for _, ItemID in pairs(WoWRemixMoP_Consumable) do
+    categories:AddItemToCategory(ItemID, "Consumables")
 end
