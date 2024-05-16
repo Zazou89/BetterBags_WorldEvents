@@ -488,5 +488,5 @@ for _, ItemID in pairs(LunarFestival) do
 end
 
 for _, ItemID in pairs(WoWRemixMoP) do
-    categories:AddItemToCategory(ItemID, "Lunar Festival")
+    categories:AddItemToCategory(ItemID, "WoW Remix")
 end
