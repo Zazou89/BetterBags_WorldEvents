@@ -484,34 +484,42 @@ for _, ItemID in pairs(LunarFestival) do
     categories:AddItemToCategory(ItemID, "Lunar Festival")
 end
 
+--[=[
+    MoP Remix
+    Color Categories
+--]=]
+
+local colorPrefix = "|cff1DDB7F"
+local resetColor = "|r"
+
 for _, ItemID in pairs(WoWRemixMoP) do
-    categories:AddItemToCategory(ItemID, "Remix")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Remix" .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_metagems) do
-    categories:AddItemToCategory(ItemID, "Meta Gems")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Meta Gems" .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_cogwheelgems) do
-    categories:AddItemToCategory(ItemID, "Cogwheel Gems")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Cogwheel Gems" .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_tinkergems) do
-    categories:AddItemToCategory(ItemID, "Tinker Gems")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Tinker Gems" .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_prismaticgems) do
-    categories:AddItemToCategory(ItemID, "Prismatic Gems")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Prismatic Gems" .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_Buff) do
-    categories:AddItemToCategory(ItemID, "Enhancements")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Enhancements" .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_Utility) do
-    categories:AddItemToCategory(ItemID, "Utilities")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Utilities" .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_Consumable) do
-    categories:AddItemToCategory(ItemID, "Consumables")
+    categories:AddItemToCategory(ItemID, colorPrefix .. "Consumables" .. resetColor)
 end
