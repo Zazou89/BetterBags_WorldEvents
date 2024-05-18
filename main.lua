@@ -7,6 +7,57 @@ local categories = addon:GetModule("Categories")
 ---@class Localization: AceModule
 local L = addon:GetModule("Localization")
 
+-- Localization table
+local locales = {
+    ["enUS"] = {
+        ["Noblegarden"] = "Noblegarden",
+        ["Darkmoon Faire"] = "Darkmoon Faire",
+        ["Lunar Festival"] = "Lunar Festival",
+        ["Remix"] = "Remix",
+        ["Meta Gems"] = "Meta Gems",
+        ["Cogwheel Gems"] = "Cogwheel Gems",
+        ["Tinker Gems"] = "Tinker Gems",
+        ["Prismatic Gems"] = "Prismatic Gems",
+        ["Enhancements"] = "Enhancements",
+        ["Utilities"] = "Utilities",
+        ["Consumables"] = "Potions & Bandages",
+    },
+    ["frFR"] = {
+        ["Noblegarden"] = "Le Jardin des nobles",
+        ["Darkmoon Faire"] = "Foire de Sombrelune",
+        ["Lunar Festival"] = "Fête lunaire",
+        ["Remix"] = "Remix",
+        ["Meta Gems"] = "Meta-gemmes",
+        ["Cogwheel Gems"] = "Roues dentées précieuses",
+        ["Tinker Gems"] = "Gemmes de bricolage",
+        ["Prismatic Gems"] = "Gemmes prosmatiques",
+        ["Enhancements"] = "Améliorations",
+        ["Utilities"] = "Utilitaires",
+        ["Consumables"] = "Potions et Bandages",
+    },
+    ["deDE"] = {
+        ["Noblegarden"] = "Nobelgartenfest",
+        ["Darkmoon Faire"] = "Dunkelmond-Jahrmarkt",
+        ["Lunar Festival"] = "Mondfest",
+        ["Remix"] = "Remix",
+        ["Meta Gems"] = "Metaedelstein",
+        ["Cogwheel Gems"] = "Zahnradedelstein",
+        ["Tinker Gems"] = "Tüftleredelstein",
+        ["Prismatic Gems"] = "Prismatischer Edelstein",
+        ["Enhancements"] = "Verbrauchbares: Verbesserungen",
+        ["Utilities"] = "Verbrauchbares: Hilfsmittel",
+        ["Consumables"] = "Tränke und Verbände",
+    },
+}
+
+-- Detects current language
+local currentLocale = GetLocale()
+
+-- Function to get the translation
+local function L(key)
+    return locales[currentLocale] and locales[currentLocale][key] or locales["enUS"][key]
+end
+
 --Noblegarden
 local Noblegarden = {
     116258, --Mystical Spring Bouquet
@@ -473,15 +524,15 @@ local WoWRemixMoP_Consumable = {
 
 --Loop
 for _, ItemID in pairs(Noblegarden) do
-    categories:AddItemToCategory(ItemID, "Noblegarden")
+    categories:AddItemToCategory(ItemID, L("Noblegarden"))
 end
 
 for _, ItemID in pairs(Darkmoonfaire) do
-    categories:AddItemToCategory(ItemID, "Darkmoon Faire")
+    categories:AddItemToCategory(ItemID, L("Darkmoon Faire"))
 end
 
 for _, ItemID in pairs(LunarFestival) do
-    categories:AddItemToCategory(ItemID, "Lunar Festival")
+    categories:AddItemToCategory(ItemID, L("Lunar Festival"))
 end
 
 --[=[
@@ -493,33 +544,33 @@ local colorPrefix = "|cff1DDB7F"
 local resetColor = "|r"
 
 for _, ItemID in pairs(WoWRemixMoP) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Remix" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Remix") .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_metagems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Meta Gems" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Meta Gems") .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_cogwheelgems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Cogwheel Gems" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Cogwheel Gems") .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_tinkergems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Tinker Gems" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Tinker Gems") .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_prismaticgems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Prismatic Gems" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Prismatic Gems") .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_Buff) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Enhancements" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Enhancements") .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_Utility) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Utilities" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Utilities") .. resetColor)
 end
 
 for _, ItemID in pairs(WoWRemixMoP_Consumable) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. "Consumables" .. resetColor)
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Consumables") .. resetColor)
 end
