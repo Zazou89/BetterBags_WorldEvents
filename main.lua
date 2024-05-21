@@ -27,7 +27,7 @@ local locales = {
         ["Meta Gems"] = "Meta-gemmes",
         ["Cogwheel Gems"] = "Roues dentées précieuses",
         ["Tinker Gems"] = "Gemmes de bricolage",
-        ["Prismatic Gems"] = "Gemmes prismatiques",
+        ["Prismatic Gems"] = "Gemmes prosmatiques",
         ["Enhancements"] = "Améliorations",
         ["Utilities"] = "Utilitaires",
         ["Consumables"] = "Potions et Bandages",
@@ -45,19 +45,6 @@ local locales = {
         ["Utilities"] = "Verbrauchbares: Hilfsmittel",
         ["Consumables"] = "Tränke und Verbände",
     },
-    ["ptBR"] = {
-        ["Noblegarden"] = "Jardinova",
-        ["Darkmoon Faire"] = "Feira de Negraluna",
-        ["Lunar Festival"] = "Festival da Lua",
-        ["Remix"] = "Remix",
-        ["Meta Gems"] = "Meta Gemas",
-        ["Cogwheel Gems"] = "Gema de Engrenagem",
-        ["Tinker Gems"] = "Gema de Gambiarra",
-        ["Prismatic Gems"] = "Gema Prismática",
-        ["Enhancements"] = "Aprimoramento",
-        ["Utilities"] = "Utilitários",
-        ["Consumables"] = "Poções & Bandagens",
-    }
 }
 
 -- Detects current language
@@ -73,28 +60,28 @@ local Noblegarden = {
     116258, --Mystical Spring Bouquet
     216874, --Loot-Filled Basket
     155905, --Cursed Rabbit's Foot
-    45072,  --Brightly Colored Egg
-    72145,  --Swift Springstrider
-    44791,  --Noblegarden Chocolate
+    45072, --Brightly Colored Egg
+    72145, --Swift Springstrider
+    44791, --Noblegarden Chocolate
     213428, --Loot-Stuffed Basket
     116371, --Magnificently-Painted Egg
     116370, --Intricately-Painted Egg
-    44793,  --Tome of Polymorph: Rabbit
-    44806,  --Brightly Colored Shell Fragment
+    44793, --Tome of Polymorph: Rabbit
+    44806, --Brightly Colored Shell Fragment
     116369, --Poorly-Painted Egg
-    44794,  --Spring Rabbit's Foot
-    44803,  --Spring Circlet
-    6835,   --Black Tuxedo Pants
-    19028,  --Elegant Dress
-    45073,  --Spring Flowers
-    45067,  --Egg Basket
-    74283,  --Pink Spring Circlet
-    44792,  --Blossoming Branch
-    74282,  --Black Spring Circlet
-    44800,  --Spring Robes
-    44818,  --Noblegarden Egg
-    6833,   --White Tuxedo Shirt
-    44802,  --Borrowed Egg Basket
+    44794, --Spring Rabbit's Foot
+    44803, --Spring Circlet
+    6835, --Black Tuxedo Pants
+    19028, --Elegant Dress
+    45073, --Spring Flowers
+    45067, --Egg Basket
+    74283, --Pink Spring Circlet
+    44792, --Blossoming Branch
+    74282, --Black Spring Circlet
+    44800, --Spring Robes
+    44818, --Noblegarden Egg
+    6833, --White Tuxedo Shirt
+    44802, --Borrowed Egg Basket
     212599, --Noble Flying Carpet
     212786, --Lovely Duckling
     216881, --Duck Disguiser
@@ -121,28 +108,28 @@ local Noblegarden = {
     216890, --Black Duck Disguise
     216897, --Brown Duck Disguise
     216902, --Yellow Duck Disguise
-    216900  --Pink Duck Disguise
+    216900 --Pink Duck Disguise
 }
 
 local Darkmoonfaire = {
-    71083,  --Darkmoon Game Token
-    93724,  --Darkmoon Game Prize
-    71970,  --Darkmoon Prize Ticket
-    19296,  --Greater Darkmoon Prize
-    19297,  --Lesser Darkmoon Prize
-    19298,  --Minor Darkmoon Prize
-    19425,  --Mysterious Lockbox
+    71083, --Darkmoon Game Token
+    93724, --Darkmoon Game Prize
+    71970, --Darkmoon Prize Ticket
+    19296, --Greater Darkmoon Prize
+    19297, --Lesser Darkmoon Prize
+    19298, --Minor Darkmoon Prize
+    19425, --Mysterious Lockbox
     116052, --Nobleman's Coat
     116134, --Noble's Fancy Boots
     116136, --Noblewoman's Skirt
     116133, --Nobleman's Pantaloons
     116137, --Noblewoman's Finery
-    78340,  --Cloak of the Darkmoon Faire
-    78341,  --Darkmoon Hammer
+    78340, --Cloak of the Darkmoon Faire
+    78341, --Darkmoon Hammer
     122129, --Fire-Eater's Vial
     138202, --Sparklepony XL
     116115, --Blazing Wings
-    97994,  --Darkmoon Seesaw
+    97994, --Darkmoon Seesaw
     126931, --Seafarer's Slidewhistle
     105898, --Moonfang's Paw
     116139, --Haunting Memento
@@ -151,71 +138,71 @@ local Darkmoonfaire = {
     122121, --Darkmoon Gazer
     122119, --Everlasting Darkmoon Firework
     122122, --Darkmoon Tonk Controller
-    75042,  --Flimsy Yellow Balloon
+    75042, --Flimsy Yellow Balloon
     122123, --Darkmoon Ring-Flinger
-    90899,  --Darkmoon Whistle
+    90899, --Darkmoon Whistle
     122126, --Attraction Sign
     122120, --Gaze of the Darkmoon
     124669, --Darkmoon Daggermaw
-    73766,  --Darkmoon Dancing Bear
-    72140,  --Swift Forest Strider
+    73766, --Darkmoon Dancing Bear
+    72140, --Swift Forest Strider
     138429, --Cropped Tabard of the Scarlet Crusade
-    80008,  --Darkmoon Rabbit
-    73905,  --Darkmoon Zeppelin
-    74981,  --Darkmoon Cub
-    73953,  --Sea Pony
+    80008, --Darkmoon Rabbit
+    73905, --Darkmoon Zeppelin
+    74981, --Darkmoon Cub
+    73953, --Sea Pony
     116064, --Syd the Squid
-    19450,  --A Jubling's Tiny Home
-    91040,  --Darkmoon Eye
-    73765,  --Darkmoon Turtle
+    19450, --A Jubling's Tiny Home
+    91040, --Darkmoon Eye
+    73765, --Darkmoon Turtle
     101570, --Moon Moon
-    75042,  --Flimsy Yellow Balloon
-    73762,  --Darkmoon Balloon
-    73903,  --Darkmoon Tonk
-    73764,  --Darkmoon Monkey
+    75042, --Flimsy Yellow Balloon
+    73762, --Darkmoon Balloon
+    73903, --Darkmoon Tonk
+    73764, --Darkmoon Monkey
     126925, --Blorp's Bubble
     126926, --Translucent Shell
     123862, --Hogs' Studded Collar
-    91003,  --Darkmoon Hatchling
+    91003, --Darkmoon Hatchling
     122125, --Race MiniZep Controller
-    91031,  --Darkmoon Glowfly
-    75041,  --Flimsy Green Balloon
-    75040,  --Flimsy Darkmoon Balloon
-    19422,  --Darkmoon Faire Fortune
-    19443,  --Sayge's Fortune #25
-    19266,  --Sayge's Fortune #20
-    19255,  --Sayge's Fortune #22
-    19424,  --Sayge's Fortune #24
-    19453,  --Sayge's Fortune #28
-    19254,  --Sayge's Fortune #21
-    19242,  --Sayge's Fortune #7
-    19247,  --Sayge's Fortune #12
-    19237,  --Sayge's Fortune #19
-    19253,  --Sayge's Fortune #17
-    19423,  --Sayge's Fortune #23
-    19452,  --Sayge's Fortune #27
-    19249,  --Sayge's Fortune #14
-    19250,  --Sayge's Fortune #15
-    19252,  --Sayge's Fortune #18
-    19454,  --Sayge's Fortune #29
-    19229,  --Sayge's Fortune #1
-    19451,  --Sayge's Fortune #26
-    19240,  --Sayge's Fortune #5
-    19239,  --Sayge's Fortune #4
-    19241,  --Sayge's Fortune #6
-    19245,  --Sayge's Fortune #10
-    19251,  --Sayge's Fortune #16
-    19238,  --Sayge's Fortune #3
-    19244,  --Sayge's Fortune #9
-    19246,  --Sayge's Fortune #11
-    19248,  --Sayge's Fortune #13
-    19243,  --Sayge's Fortune #8
-    19256,  --Sayge's Fortune #2
-    71976,  --Darkmoon Prize
-    71977,  --Darkmoon Craftsman's Kit
-    72049,  --Darkmoon Banner
-    72048,  --Darkmoon Banner Kit
-    71978   --Darkmoon Bandage
+    91031, --Darkmoon Glowfly
+    75041, --Flimsy Green Balloon
+    75040, --Flimsy Darkmoon Balloon
+    19422, --Darkmoon Faire Fortune
+    19443, --Sayge's Fortune #25
+    19266, --Sayge's Fortune #20
+    19255, --Sayge's Fortune #22
+    19424, --Sayge's Fortune #24
+    19453, --Sayge's Fortune #28
+    19254, --Sayge's Fortune #21
+    19242, --Sayge's Fortune #7
+    19247, --Sayge's Fortune #12
+    19237, --Sayge's Fortune #19
+    19253, --Sayge's Fortune #17
+    19423, --Sayge's Fortune #23
+    19452, --Sayge's Fortune #27
+    19249, --Sayge's Fortune #14
+    19250, --Sayge's Fortune #15
+    19252, --Sayge's Fortune #18
+    19454, --Sayge's Fortune #29
+    19229, --Sayge's Fortune #1
+    19451, --Sayge's Fortune #26
+    19240, --Sayge's Fortune #5
+    19239, --Sayge's Fortune #4
+    19241, --Sayge's Fortune #6
+    19245, --Sayge's Fortune #10
+    19251, --Sayge's Fortune #16
+    19238, --Sayge's Fortune #3
+    19244, --Sayge's Fortune #9
+    19246, --Sayge's Fortune #11
+    19248, --Sayge's Fortune #13
+    19243, --Sayge's Fortune #8
+    19256, --Sayge's Fortune #2
+    71976, --Darkmoon Prize
+    71977, --Darkmoon Craftsman's Kit
+    72049, --Darkmoon Banner
+    72048, --Darkmoon Banner Kit
+    71978 --Darkmoon Bandage
 }
 
 local LunarFestival = {
@@ -263,7 +250,7 @@ local LunarFestival = {
     44918, -- Schematic: Cluster Launcher
     21744, -- Lucky Rocket Cluster
     90000, -- Everlasting Horde Firework
-    89999  -- Everlasting Alliance Firework
+    89999 -- Everlasting Alliance Firework
 }
 
 local WoWRemixMoP = {
@@ -297,27 +284,27 @@ local WoWRemixMoP = {
     217725, --Essence of Yu'lon
     217726, --Fortitude of Niuzao
     104262, --Odd Polished Stone Odd Polished Stone
-    86565,  --Battle Horn
+    86565, --Battle Horn
     134023, --Bottled Tornado
-    86575,  --Chalice of Secrets
-    86590,  --Essence of the Breeze
-    86594,  --Helpful Wikky's Whistle
-    86571,  --Kang's Bindstone
-    86589,  --Ai-Li's Skymirror
-    86578,  --Eternal Warrior's Sigil
-    86581,  --Farwater Conch
-    86593,  --Hozen Beach Ball
-    86586,  --Panflute of Pandaria
-    86583,  --Salyin Battle Banner
-    86573,  --Shard of Archstone
-    86582,  --Aqua Jewel
-    86568,  --Mr. Smite's Brass Compass
-    86588,  --Pandaren Firework Launcher
+    86575, --Chalice of Secrets
+    86590, --Essence of the Breeze
+    86594, --Helpful Wikky's Whistle
+    86571, --Kang's Bindstone
+    86589, --Ai-Li's Skymirror
+    86578, --Eternal Warrior's Sigil
+    86581, --Farwater Conch
+    86593, --Hozen Beach Ball
+    86586, --Panflute of Pandaria
+    86583, --Salyin Battle Banner
+    86573, --Shard of Archstone
+    86582, --Aqua Jewel
+    86568, --Mr. Smite's Brass Compass
+    86588, --Pandaren Firework Launcher
     104302, --Blackflame Daggers
     104331, --Warning Sign
-    98136,  --Gastropod Shell
+    98136, --Gastropod Shell
     104309, --Eternal Kiln
-    89205,  --Mini Mana Bomb
+    89205, --Mini Mana Bomb
     --Mounts
     220768, --Reins of the Astral Emperor's Serpent
     220766, --Reins of the August Phoenix
@@ -325,7 +312,7 @@ local WoWRemixMoP = {
     213576, --Golden Discus Golden Discus
     213584, --Mogu Hazeblazer Mogu Hazeblazer
     213595, --Feathered Windsurfer String Feathered Windsurfer String
-    87784,  --Reins of the Jungle Riding Crane Reins of the Jungle Riding Crane
+    87784, --Reins of the Jungle Riding Crane Reins of the Jungle Riding Crane
     213602, --Reins of the Gilded Riding Crane Reins of the Gilded Riding Crane
     213603, --Reins of the Pale Riding Crane Reins of the Pale Riding Crane
     213605, --Reins of the Rose Riding Crane Reins of the Rose Riding Crane
@@ -336,9 +323,9 @@ local WoWRemixMoP = {
     213609, --Reins of the Little Red Riding Goat Reins of the Little Red Riding Goat
     213628, --Reins of the Riverwalker Mushan Reins of the Riverwalker Mushan
     213627, --Reins of the Palehide Mushan Beast Reins of the Palehide Mushan Beast
-    87786,  --Reins of the Black Riding Yak Reins of the Black Riding Yak
-    87787,  --Reins of the Modest Expedition Yak Reins of the Modest Expedition Yak
-    84753,  --Reins of the Kafa Yak Reins of the Kafa Yak
+    87786, --Reins of the Black Riding Yak Reins of the Black Riding Yak
+    87787, --Reins of the Modest Expedition Yak Reins of the Modest Expedition Yak
+    84753, --Reins of the Kafa Yak Reins of the Kafa Yak
     213626, --Reins of the Purple Shado-Pan Riding Tiger Reins of the Purple Shado-Pan Riding Tiger
     213624, --Cobalt Juggernaut Cobalt Juggernaut
     213625, --Fel Iron Juggernaut Fel Iron Juggernaut
@@ -603,7 +590,7 @@ local WoWRemixMoP = {
     217830, --Arsenal:
     217831, --Arsenal:
     217821, --Arsenal:
-
+    
 }
 local WoWRemixMoP_metagems = {
     -- Meta Gems
@@ -619,7 +606,7 @@ local WoWRemixMoP_metagems = {
     221982, --Bulwark of the Black Ox
     220120, --Soul Tether
 }
-local WoWRemixMoP_cogwheelgems = {
+local WoWRemixMoP_cogwheelgems = { 
     -- Cogwheel Gems
     216632, --Sprint
     218044, --Pursuit of Justice
@@ -723,19 +710,38 @@ local WoWRemixMoP_Buff = {
     217608, --Timeless Scroll of Battle Shout
     217730, --Timeless Scroll of Chaos
     217901, --Timeless Drums
-}
-
+  }
+  
 local WoWRemixMoP_Utility = {
     217928, --Timeless Scroll of Resurrection
     217929, --Timeless Scroll of Cleansing
     217956, --Timeless Scroll of Summoning
-}
-
+  }
+  
 local WoWRemixMoP_Consumable = {
     217904, --Timerunner's Draught of Power
     217905, --Timerunner's Draught of Health
     211254, --Timerunner's Bandage
+  }
+
+--Delete category before adding translations
+local CategoriesToDelete = {
+    "Remix",
+    "Meta Gems",
+    "Cogwheel Gems",
+    "Tinker Gems",
+    "Prismatic Gems",
+    "Enhancements",
+    "Utilities",
+    "Consumables",
+    "Noblegarden",
+    "Darkmoon Faire",
+    "Lunar Festival",
 }
+
+for _, category in ipairs(CategoriesToDelete) do
+    categories:DeleteCategory(category)
+end  
 
 --Loop
 for _, ItemID in pairs(Noblegarden) do
