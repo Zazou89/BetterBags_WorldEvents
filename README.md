@@ -16,7 +16,7 @@ I've created a few plugins for BetterBags:
 - [BetterBags - Azerothian Archives](https://www.curseforge.com/wow/addons/betterbags-azerothian-archives): categories for all Azerothian Archives items like Big Dig Tomes
 - [BetterBags - Guardians of the Dream](https://www.curseforge.com/wow/addons/betterbags-guardians-of-the-dream) : categories all items from Guardians of the Dream like Dreamseeds
 - [BetterBags - Battle Pets Items](https://www.curseforge.com/wow/addons/betterbags-battle-pet-items): categories for all Battle Pets Items like Currencies, Stones or or Costumes
-- [BetterBags - Remix : MoP](https://legacy.curseforge.com/wow/addons/betterbags-remix-mop) : categories all items from Remix MoP, like gems, Flasks, Scrolls or Transmogs
+- [BetterBags - Remix: MoP](https://www.curseforge.com/wow/addons/betterbags-remix-mop) : categories all items from Remix MoP, like gems, Flasks, Scrolls or Transmogs
 
 
 # Joins us !
