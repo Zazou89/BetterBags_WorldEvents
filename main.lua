@@ -708,7 +708,8 @@ local WoWRemixMoP_Consumable = {
     217905, --Timerunner's Draught of Health
     211254, --Timerunner's Bandage
   }
-  local WoWRemixMoP_Threads = {
+
+local WoWRemixMoP_Threads = {
     --Cloak Threads
     217722, --Thread of Experience
     219264, --Temporal Thread of Experience
