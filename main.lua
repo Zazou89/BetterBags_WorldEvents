@@ -686,7 +686,6 @@ local WoWRemixMoP_prismaticgems = {
     211124, --Swift Opal
     220374, --Versatile Diamond
 }
-
 local WoWRemixMoP_Buff = {
     217731, --Timeless Scroll of Mystic Power
     217605, --Timeless Scroll of Intellect
