@@ -791,6 +791,8 @@ local MidsummerFireFestival = {
     23323, -- Crown of the Fire Festival
     23435, -- Elderberry Pie
     224163, -- Cliffside Wylderdrake: Midsummer Fire Festival Armor
+    220785, -- Midsummer Safeguard
+    220787, -- Mantle of Midsummer
 }
 --We make sure that category names and content are always up to date.
 local CategoriesToUpdate = {
