@@ -793,6 +793,7 @@ local MidsummerFireFestival = {
     224163, -- Cliffside Wylderdrake: Midsummer Fire Festival Armor
     220785, -- Midsummer Safeguard
     220787, -- Mantle of Midsummer
+    117394, -- Satchel of Chilled Goods
 }
 --We make sure that category names and content are always up to date.
 local CategoriesToUpdate = {
