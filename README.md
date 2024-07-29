@@ -1,7 +1,7 @@
 # BetterBags - World Events
 This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates categories for all World Events, including :
 
-- 🔥NEW : Radiant Echoes (The War Within event)
+- 🔥NEW : Radiant Echoes (The War Within Pre-Patch Event)
 - WoW Remix : Mists of Pandaria (Gems, Caches, Flasks, Scroll, Transmogs, etc)
 - Noblegarden
 - Darkmoon Faire
