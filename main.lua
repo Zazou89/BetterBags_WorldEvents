@@ -800,6 +800,15 @@ local MidsummerFireFestival = {
     117394, -- Satchel of Chilled Goods
 }
 local RadiantEchoes = {
+    --Ring
+    223647, -- Lifeless Stone Ring
+    223644, -- Memory of Northrend
+    223643, -- Essence of Kalimdor
+    223642, -- Memory of Northrend
+    223641, -- Essence of Northrend
+    223643, -- Essence of Kalimdor
+    223645, -- Essence of the Eastern Kingdoms
+    219325, -- Band of Radiant Echoes
     --Mounts
     217985, -- Remembered Golden Gryphon
     217987, -- Remembered Wind Rider
@@ -810,8 +819,6 @@ local RadiantEchoes = {
     218245, -- Remembered Construct
     218086, -- Remembered Riverpaw
     218246, -- Remembered Spawn
-    --Consumable
-    223647, -- Lifeless Stone Ring
     --Gear
     220304, -- Weathered Northrend Sigil
     218050, -- Dalaran Defender's Coronet
