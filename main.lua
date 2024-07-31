@@ -807,7 +807,7 @@ local RadiantEchoes = {
     223642, -- Memory of Northrend
     223641, -- Essence of Northrend
     223643, -- Essence of Kalimdor
-    223645, -- Essence of the Eastern Kingdoms
+    223645, -- Essence of the Eastern Kingdoms 
     219325, -- Band of Radiant Echoes
     --Mounts
     217985, -- Remembered Golden Gryphon
@@ -819,74 +819,8 @@ local RadiantEchoes = {
     218245, -- Remembered Construct
     218086, -- Remembered Riverpaw
     218246, -- Remembered Spawn
-    --Gear
-    220304, -- Weathered Northrend Sigil
-    218050, -- Dalaran Defender's Coronet
-    218066, -- Dalaran Defender's Gauntlets
-    219241, -- Dalaran Defender's Club
-    218051, -- Dalaran Defender's Leggings
-    218067, -- Dalaran Defender's Spaulders
-    219242, -- Dalaran Defender's Hammer
-    218052, -- Dalaran Defender's Greatbelt
-    218068, -- Dalaran Defender's Clasp
-    218053, -- Dalaran Defender's Clasps
-    218069, -- Dalaran Defender's Bracers
-    219244, -- Dalaran Defender's Aegis
-    218006, -- Dalaran Defender's Greaves
-    218054, -- Dalaran Defender's Mantle
-    218070, -- Dalaran Defender's Chainmail
-    219229, -- Dalaran Defender's Battleaxe
-    219245, -- Dalaran Defender's Impaler
-    218055, -- Dalaran Defender's Treads
-    218071, -- Dalaran Defender's Stompers
-    219230, -- Dalaran Defender's Hatchet
-    219246, -- Dalaran Defender's Spear
-    218056, -- Dalaran Defender's Grips
-    218072, -- Dalaran Defender's Grips
-    219231, -- Dalaran Defender's Carver
-    219247, -- Dalaran Defender's Wand
-    218057, -- Dalaran Defender's Mask
-    218073, -- Dalaran Defender's Helmet
-    219232, -- Dalaran Defender's Bolter
-    219248, -- Dalaran Defender's Mace
-    218058, -- Dalaran Defender's Pants
-    218074, -- Dalaran Defender's Legguards
-    219249, -- Dalaran Defender's Crusher
-    218059, -- Dalaran Defender's Buckle
-    218075, -- Dalaran Defender's Epaulets
-    219234, -- Dalaran Defender's Spellblade
-    219250, -- Dalaran Defender's Scepter
-    218060, -- Dalaran Defender's Wraps
-    218076, -- Dalaran Defender's Cinch
-    219235, -- Dalaran Defender's Blade
-    219251, -- Dalaran Defender's Sabre
-    218061, -- Dalaran Defender's Tunic
-    218077, -- Dalaran Defender's Armguards
-    219236, -- Dalaran Defender's Conduit
-    219252, -- Dalaran Defender's Dagger
-    223634, -- Ring of Returning Memories
-    218062, -- Dalaran Defender's Shoulderblades
-    218078, -- Dalaran Defender's Cape
-    219237, -- Dalaran Defender's Spire
-    219253, -- Dalaran Defender's Dirk
-    218047, -- Dalaran Defender's Robes
-    218063, -- Dalaran Defender's Helm
-    218079, -- Dalaran Defender's Shawl
-    219238, -- Dalaran Defender's Battlestaff
-    218048, -- Dalaran Defender's Loafers
-    218064, -- Dalaran Defender's Breastplate
-    218080, -- Dalaran Defender's Cloak
-    219239, -- Dalaran Defender's Greatsword
-    223509, -- Shriveled Ancient Tentacle
-    223513, -- Faded Ebony Scale
-    223636, -- Remembrancer's Radiant Jewels
-    218049, -- Dalaran Defender's Mitts
-    218065, -- Dalaran Defender's Boots
-    218081, -- Dalaran Defender's Drape
-    219240, -- Dalaran Defender's Broadsword
-    223637, -- Pendant of the Mage City
-    223635, -- Dalaran Defender's Favor
 }
+
 --We make sure that category names and content are always up to date.
 local CategoriesToUpdate = {
     "Remix",
