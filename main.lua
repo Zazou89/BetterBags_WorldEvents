@@ -801,13 +801,13 @@ local MidsummerFireFestival = {
 }
 local RadiantEchoes = {
     --Ring
-    223647, -- Lifeless Stone Ring
-    223644, -- Memory of Northrend
-    223643, -- Essence of Kalimdor
-    223642, -- Memory of Northrend
     223641, -- Essence of Northrend
+    223642, -- Memory of Northrend
     223643, -- Essence of Kalimdor
+    223644, -- Memory of Kalimdor
     223645, -- Essence of the Eastern Kingdoms 
+    223646, -- Memory of the Eastern Kingdoms
+    223647, -- Lifeless Stone Ring
     219325, -- Band of Radiant Echoes
     --Mounts
     217985, -- Remembered Golden Gryphon
