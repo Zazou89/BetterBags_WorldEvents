@@ -1,4 +1,4 @@
-## Interface: 110000, 110002
+## Interface: 110002
 ## Title: BetterBags - World Events
 ## Author: Zazou
 ## Version: @project-version@
