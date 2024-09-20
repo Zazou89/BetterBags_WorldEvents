@@ -21,6 +21,8 @@ local locales = {
         ["Consumables"] = "Potions & Bandages",
         ["Threads"] = "Threads",
         ["Radiant Echoes"] = 'Radiant Echoes',
+        ["Brewfest"] = 'Brewfest',   
+        
     },
     ["frFR"] = {
         ["Noblegarden"] = "Le Jardin des nobles",
@@ -37,6 +39,7 @@ local locales = {
         ["Consumables"] = "Potions et Bandages",
         ["Threads"] = "Fils",
         ["Radiant Echoes"] = 'Échos radieux',
+        ["Brewfest"] = 'Fête des Brasseurs',  
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -53,6 +56,7 @@ local locales = {
         ["Consumables"] = "Tränke und Verbände",
         ["Threads"] = "Faden",
         ["Radiant Echoes"] = 'Strahlenden Echos',
+        ["Brewfest"] = 'Braufest',  
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -69,6 +73,7 @@ local locales = {
         ["Consumables"] = "Poções & Bandagens",
         ["Threads"] = "Fios",
         ["Radiant Echoes"] = 'Ecos Radiantes',
+        ["Brewfest"] = 'CervaFest',  
     }
 }
 
@@ -820,7 +825,72 @@ local RadiantEchoes = {
     218086, -- Remembered Riverpaw
     218246, -- Remembered Spawn
 }
-
+local Brewfest = {
+    37829, --Brewfest Prize Token
+    149752, --Keg-Shaped Treasure Box
+    54535, --Keg-Shaped Treasure Chest
+    117393, --Keg-Shaped Treasure Chest
+    169599, --Chowdown Champion Token
+    --Food
+    34022,  
+    34021,  
+    34019,  
+    34018,  
+    37490,  
+    37493,  
+    37494,  
+    37491,  
+    37906,  
+    37909,  
+    37908,  
+    37907,  
+    37496,  
+    119209,  
+    33043,  
+    37489,  
+    37488,  
+    37498,  
+    37495,  
+    90426,  
+    37492,  
+    37499,  
+    37497,  
+    34020,  
+    34017,  
+    34065,  
+    33036,  
+    33035,  
+    33026,  
+    39476,  
+    34063,  
+    33032,  
+    33023,  
+    37750,  
+    39477,  
+    33028,  
+    138870,  
+    138868,  
+    33033,  
+    33024,  
+    33029,  
+    138867,  
+    33025,  
+    138869,  
+    46401,  
+    46403,  
+    34064,  
+    46399,  
+    46400,  
+    138871,  
+    46402,  
+    33030,  
+    33031,  
+    33034,  
+    33956,  
+    38587,  
+    33797,  
+    33929,
+}
 --We make sure that category names and content are always up to date.
 local CategoriesToUpdate = {
     "Remix",
@@ -848,6 +918,7 @@ local CategoriesToUpdate = {
     L("Threads"),
     L("Midsummer Fire Festival"),
     L("Radiant Echoes"),
+    L("Brewfest"),
 }
 
 for _, category in ipairs(CategoriesToUpdate) do
@@ -871,7 +942,9 @@ for _, ItemID in pairs(MidsummerFireFestival) do
     categories:AddItemToCategory(ItemID, L("Midsummer Fire Festival"))
 end
 
-
+for _, ItemID in pairs(Brewfest) do
+    categories:AddItemToCategory(ItemID, L("Brewfest"))
+end
 
 --[=[
     MoP Remix
