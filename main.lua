@@ -21,7 +21,8 @@ local locales = {
         ["Consumables"] = "Potions & Bandages",
         ["Threads"] = "Threads",
         ["Radiant Echoes"] = 'Radiant Echoes',
-        ["Brewfest"] = 'Brewfest',   
+        ["Brewfest"] = 'Brewfest',
+        ["20th Anniversary"] = '20th Anniversary',   
         
     },
     ["frFR"] = {
@@ -40,6 +41,7 @@ local locales = {
         ["Threads"] = "Fils",
         ["Radiant Echoes"] = 'Échos radieux',
         ["Brewfest"] = 'Fête des Brasseurs',  
+        ["20th Anniversary"] = '20e anniversaire',
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -57,6 +59,7 @@ local locales = {
         ["Threads"] = "Faden",
         ["Radiant Echoes"] = 'Strahlenden Echos',
         ["Brewfest"] = 'Braufest',  
+        ["20th Anniversary"] = 'Der 20. Geburtstag',    
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -74,6 +77,7 @@ local locales = {
         ["Threads"] = "Fios",
         ["Radiant Echoes"] = 'Ecos Radiantes',
         ["Brewfest"] = 'CervaFest',  
+        ["20th Anniversary"] = '20º Aniversário',
     }
 }
 
@@ -891,6 +895,14 @@ local Brewfest = {
     33797,  
     33929,
 }
+
+local WoW20thAnniversary = {
+    --Keys
+    231510, --Timewarped Relic Coffer Key (LFR)
+    232365, --Timewarped Relic Coffer Key (Normal)
+    232366, --Timewarped Relic Coffer Key (Heroic)
+}
+
 --We make sure that category names and content are always up to date.
 local CategoriesToUpdate = {
     "Remix",
@@ -919,11 +931,18 @@ local CategoriesToUpdate = {
     L("Midsummer Fire Festival"),
     L("Radiant Echoes"),
     L("Brewfest"),
+    L("20th Anniversary")
 }
 
 for _, category in ipairs(CategoriesToUpdate) do
     categories:DeleteCategory(category)
 end  
+
+-- Color Categories
+
+local colorPrefix = "|cff1DDB7F"
+local colorPrefix_20thAnniversary = "|cff1dc7db"
+local resetColor = "|r"
 
 --Loop
 for _, ItemID in pairs(Noblegarden) do
@@ -945,14 +964,6 @@ end
 for _, ItemID in pairs(Brewfest) do
     categories:AddItemToCategory(ItemID, L("Brewfest"))
 end
-
---[=[
-    MoP Remix
-    Color Categories
---]=]
-
-local colorPrefix = "|cff1DDB7F"
-local resetColor = "|r"
 
 for _, ItemID in pairs(WoWRemixMoP) do
     categories:AddItemToCategory(ItemID, colorPrefix .. L("Remix") .. resetColor)
@@ -990,7 +1001,10 @@ for _, ItemID in pairs(WoWRemixMoP_Threads) do
     categories:AddItemToCategory(ItemID, colorPrefix .. L("Threads") .. resetColor)
 end
 
-
 for _, ItemID in pairs(RadiantEchoes) do
     categories:AddItemToCategory(ItemID, L("Radiant Echoes"))
+end
+
+for _, ItemID in pairs(WoW20thAnniversary) do
+    categories:AddItemToCategory(ItemID, colorPrefix_20thAnniversary .. L("20th Anniversary") .. resetColor)
 end
