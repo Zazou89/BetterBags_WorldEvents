@@ -22,7 +22,8 @@ local locales = {
         ["Threads"] = "Threads",
         ["Radiant Echoes"] = 'Radiant Echoes',
         ["Brewfest"] = 'Brewfest',
-        ["20th Anniversary"] = '20th Anniversary',   
+        ["20th Anniversary"] = '20th Anniversary',
+        ["Hallow's End"] = "Hallow's End",
         
     },
     ["frFR"] = {
@@ -42,6 +43,7 @@ local locales = {
         ["Radiant Echoes"] = 'Échos radieux',
         ["Brewfest"] = 'Fête des Brasseurs',  
         ["20th Anniversary"] = '20e anniversaire',
+        ["Hallow's End"] = "Sanssaint",
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -59,7 +61,8 @@ local locales = {
         ["Threads"] = "Faden",
         ["Radiant Echoes"] = 'Strahlenden Echos',
         ["Brewfest"] = 'Braufest',  
-        ["20th Anniversary"] = 'Der 20. Geburtstag',    
+        ["20th Anniversary"] = 'Der 20. Geburtstag',  
+        ["Hallow's End"] = "Schlotternechte",  
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -78,6 +81,7 @@ local locales = {
         ["Radiant Echoes"] = 'Ecos Radiantes',
         ["Brewfest"] = 'CervaFest',  
         ["20th Anniversary"] = '20º Aniversário',
+        ["Hallow's End"] = "Noturnália",  
     }
 }
 
@@ -903,6 +907,93 @@ local WoW20thAnniversary = {
     232366, --Timewarped Relic Coffer Key (Heroic)
 }
 
+local HallowsEnd = {
+    --Currency
+    33226, -- Tricky Treat
+    --Quests
+    37586, --Handful of Treats
+    --Pumpkins
+    117392, --Loot-Filled Pumpkin
+    209024, --Loot-Filled Pumpkin
+    149574, --Loot-Stuffed Pumpkin
+    209026, --Loot-Stuffed Pumpkin
+    --Masks
+    34000, --Blood Elf Female Mask
+    69190, --Naga Male Mask
+    69188, --Murloc Male Mask
+    69195, --Vrykul Male Mask
+    20566, --Human Male Mask
+    34003, --Draenei Male Mask
+    20571, --Tauren Female Mask
+    20573, --Undead Male Mask
+    34002, --Blood Elf Male Mask
+    69192, --Ogre Female Mask
+    20391, --Gnome Male Mask
+    20562, --Dwarf Female Mask
+    69189, --Naga Female Mask
+    69194, --Vrykul Female Mask
+    20563, --Night Elf Female Mask
+    34001, --Draenei Female Mask
+    20569, --Orc Female Mask
+    20568, --Troll Male Mask
+    20392, --Gnome Female Mask
+    20561, --Dwarf Male Mask
+    49212, --Goblin Female Mask
+    20572, --Tauren Male Mask
+    49210, --Goblin Male Mask
+    49216, --Worgen Male Mask
+    69193, --Ogre Male Mask
+    20574, --Undead Female Mask
+    20564, --Night Elf Male Mask
+    20567, --Troll Female Mask
+    20570, --Orc Male Mask
+    20565, --Human Female Mask
+    69009, --Vrykul Female Mask Visual
+    69030, --Blood Elf Female Mask Visual
+    69058, --Night Elf Female Mask Visual
+    --Mount
+    37011, --Magic Broom
+    --Consumables
+    20390, -- Candy Bar
+    20389, -- Candy Corn
+    37585, -- Chewy Fel Taffy
+    34077, -- Crudely Wrapped Gift
+    37583, -- G.N.E.R.D.S.
+    20557, -- Hallow's End Pumpkin Treat
+    201423, -- Hallowed Helm
+    116851, -- Hallowed Wand - Abomination
+    20410, -- Hallowed Wand - Bat
+    128645, -- Hallowed Wand - Gargoyle
+    116853, -- Hallowed Wand - Geist
+    20409, -- Hallowed Wand - Ghost
+    116850, -- Hallowed Wand - Ghoul
+    20399, -- Hallowed Wand - Leper Gnome
+    128646, -- Hallowed Wand - Nerubian
+    20398, -- Hallowed Wand - Ninja
+    20397, -- Hallowed Wand - Pirate
+    20411, -- Hallowed Wand - Skeleton
+    116848, -- Hallowed Wand - Slime
+    116854, -- Hallowed Wand - Spider
+    128644, -- Hallowed Wand - Wight
+    20414, -- Hallowed Wand - Wisp
+    20388, -- Lollipop
+    37582, -- Pyroblast Cinnamon Ball
+    37584, -- Soothing Spearmint Candy
+    37604, -- Tooth Pick
+    34068, -- Weighted Jack-o'-Lantern
+    18635, -- Bellara's Nutterbar
+    20516, -- Bobbing Apple,
+    18632, -- Moonbrook Riot Taffy
+    18633, -- Styleen's Sour Suckerpop
+    --Warband
+    128664, --Creepy Crawlers
+    128660, --Ghoulish Guises
+    128661, --Hallow's Glow
+    128662, --Seer's Invitation
+    128663, --Witch's Brew
+    128658, --Spooky Supplies
+}
+
 --We make sure that category names and content are always up to date.
 local CategoriesToUpdate = {
     "Remix",
@@ -931,7 +1022,8 @@ local CategoriesToUpdate = {
     L("Midsummer Fire Festival"),
     L("Radiant Echoes"),
     L("Brewfest"),
-    L("20th Anniversary")
+    L("20th Anniversary"),
+    L("Hallow's End")
 }
 
 for _, category in ipairs(CategoriesToUpdate) do
@@ -1007,4 +1099,8 @@ end
 
 for _, ItemID in pairs(WoW20thAnniversary) do
     categories:AddItemToCategory(ItemID, colorPrefix_20thAnniversary .. L("20th Anniversary") .. resetColor)
+end
+
+for _, ItemID in pairs(HallowsEnd) do
+    categories:AddItemToCategory(ItemID, L("Hallow's End"))
 end

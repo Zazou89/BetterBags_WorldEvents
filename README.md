@@ -1,6 +1,7 @@
 # BetterBags - World Events
 This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates categories for all World Events, including :
 
+- 🔥NEW : Hallow's End (Currency, Pumpkins, Masks, Consumables, etc)
 - 🔥NEW : 20th Anniversary (Keys, more coming soon)
 - Brewfest (Currency, Chest, Consumable, etc)
 - Radiant Echoes (The War Within Pre-Patch Event)
