@@ -941,6 +941,7 @@ local HallowsEnd = {
     49212, --Goblin Female Mask
     20572, --Tauren Male Mask
     49210, --Goblin Male Mask
+    49215, --Worgen Female Mask
     49216, --Worgen Male Mask
     69193, --Ogre Male Mask
     20574, --Undead Female Mask
