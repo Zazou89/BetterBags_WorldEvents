@@ -905,6 +905,14 @@ local WoW20thAnniversary = {
     231510, --Timewarped Relic Coffer Key (LFR)
     232365, --Timewarped Relic Coffer Key (Normal)
     232366, --Timewarped Relic Coffer Key (Heroic)
+    --Secrets of Azeroth (Temporary Items)
+    227364, --Red Hair
+    227363, --Hear Historic Tales at the Storyteller Stage!
+    227443, --Strange Torch
+    227785, --Jeweled Eye
+    227790, --Cool Guts
+    227775, --Golden Chalice
+    227777, --Fragment of an Ancient Statue
 }
 
 local HallowsEnd = {
