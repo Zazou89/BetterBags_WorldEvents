@@ -992,6 +992,7 @@ local HallowsEnd = {
     116854, -- Hallowed Wand - Spider
     128644, -- Hallowed Wand - Wight
     20414, -- Hallowed Wand - Wisp
+    139004, --Hallowed Wand - Banshee
     20388, -- Lollipop
     37582, -- Pyroblast Cinnamon Ball
     37584, -- Soothing Spearmint Candy
