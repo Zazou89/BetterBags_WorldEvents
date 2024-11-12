@@ -929,13 +929,18 @@ local WoW20thAnniversary = {
     228766, --Sandy Ransom Note
     228300, --Sun-Baked Ransom Note
     226362, --Torn Note
+    226364, --Torn Note
     --Secrets of Azeroth (Crates)
     226200, --Soggy Celebration Crate (1)
     232263, --Hazy Celebration Crate (2)
+    228322, --Dirt-Caked Celebration Crate (3)
+    228767, --Sandy Celebration Crate (4)
+    226375, --Battered Celebration Crate (5)
+    228212, --Waterlogged Celebration Crate (6)
     --Secrets of Azeroth (Miscellaneous)
-
     229351, --Spiritual Incense
     229375, --Neural Enlarger
+    228768, --Water-Resistant Receipt
 }
 
 local HallowsEnd = {
