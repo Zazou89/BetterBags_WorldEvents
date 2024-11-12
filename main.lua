@@ -913,13 +913,22 @@ local WoW20thAnniversary = {
     227790, --Cool Guts
     227775, --Golden Chalice
     227777, --Fragment of an Ancient Statue
+    229207, --Two of Fire
+    229208, --Three of Fire
+    229210, --Five of Fire
+    229211, --Six of Fire
+    229212, --Seven of Fire
+    229199, --Two of air
+    229225, --Four of Earth
+    229216, --Three of Frost
+    229219, --Six of Frost
     --Secrets of Azeroth (Crates)
     226200, --Soggy Celebration Crate (1)
     232263, --Hazy Celebration Crate (2)
     --Secrets of Azeroth (Miscellaneous)
     228694, --Damp Ransom Note
     229351, --Spiritual Incense
-    229375, --Neural Enlarger    
+    229375, --Neural Enlarger
 }
 
 local HallowsEnd = {
