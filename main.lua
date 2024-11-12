@@ -923,11 +923,17 @@ local WoW20thAnniversary = {
     229216, --Three of Frost
     229219, --Six of Frost
     226242, --Green Hills of Stranglethorn
+    --Secrets of Azeroth (Ransom Note)
+    228694, --Damp Ransom Note
+    228321, --Dirt-Caked Ransom Note
+    228766, --Sandy Ransom Note
+    228300, --Sun-Baked Ransom Note
+    226362, --Torn Note
     --Secrets of Azeroth (Crates)
     226200, --Soggy Celebration Crate (1)
     232263, --Hazy Celebration Crate (2)
     --Secrets of Azeroth (Miscellaneous)
-    228694, --Damp Ransom Note
+
     229351, --Spiritual Incense
     229375, --Neural Enlarger
 }
