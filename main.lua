@@ -922,6 +922,7 @@ local WoW20thAnniversary = {
     229225, --Four of Earth
     229216, --Three of Frost
     229219, --Six of Frost
+    226242, --Green Hills of Stranglethorn
     --Secrets of Azeroth (Crates)
     226200, --Soggy Celebration Crate (1)
     232263, --Hazy Celebration Crate (2)
