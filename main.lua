@@ -937,10 +937,15 @@ local WoW20thAnniversary = {
     228767, --Sandy Celebration Crate (4)
     226375, --Battered Celebration Crate (5)
     228212, --Waterlogged Celebration Crate (6)
+    228976, --Charred Celebration Crate (7)
+    231886, --Mildewed Celebration Crate (8)
+    228983, --Crystallized Celebration Crate (9)
+    228770, --Surprisingly Pristine Celebration Crate (10)
     --Secrets of Azeroth (Miscellaneous)
     229351, --Spiritual Incense
     229375, --Neural Enlarger
     228768, --Water-Resistant Receipt
+    228772, --Mysterious Bones
 }
 
 local HallowsEnd = {
