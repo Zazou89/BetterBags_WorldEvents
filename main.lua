@@ -941,11 +941,37 @@ local WoW20thAnniversary = {
     231886, --Mildewed Celebration Crate (8)
     228983, --Crystallized Celebration Crate (9)
     228770, --Surprisingly Pristine Celebration Crate (10)
+    229367, --Ghostly Celebration Crate (11)
     --Secrets of Azeroth (Miscellaneous)
     229351, --Spiritual Incense
     229375, --Neural Enlarger
     228768, --Water-Resistant Receipt
     228772, --Mysterious Bones
+    231810, --Alyx's Lost & Found Notes
+    231765, --Well-Worn Almanac
+    231764, --Jade Amulet
+    231763, --Potion Bottle
+    231762, --Tiny Mechanical Mouse
+    231761, --Crude Ivory Locket
+    228328, --Bingo Card
+    229386, --Conductor's Baton Conductor's Baton
+    229385, --Mask of the Trickster
+    229383, --Play Script
+    229384, --Prop Sword
+    228934, --Carefully Penned Note
+    227551, --Note from Rexxar
+    227664, --Spirit's Whistle
+    227665, --Torn Diary, Page 4
+    227672, --Torn Diary, Page 7
+    227671, --Torn Diary, Page 6
+    229991, --My Journal: Operation Toy Rescue
+    228791, --Missing Page from Yennu's Snackbook
+    228795, --Yennu's Toy Ball
+    229908, --Plush Toy
+    229997, --My Journal: Operation Toy Rescue
+    229196, --Bakar Sketch
+    229350, --Chew Toy
+    229358, --Miniature Tuskarr Boat
 }
 
 local HallowsEnd = {
