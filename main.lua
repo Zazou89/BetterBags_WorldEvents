@@ -972,6 +972,10 @@ local WoW20thAnniversary = {
     229196, --Bakar Sketch
     229350, --Chew Toy
     229358, --Miniature Tuskarr Boat
+    231263, --The Case of the Superstitious and Hungry Pirates
+    229968, --Boonful Banquet
+    231808, --Ancient Treasure Notes
+    231905, --Letters
 }
 
 local HallowsEnd = {
