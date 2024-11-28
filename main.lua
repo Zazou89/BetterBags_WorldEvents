@@ -976,6 +976,16 @@ local WoW20thAnniversary = {
     229968, --Boonful Banquet
     231808, --Ancient Treasure Notes
     231905, --Letters
+    228935, --Unfinished Note
+    228936, --Hastily Scrawled Note
+    228937, --Water-Resistant Note
+    228938, --Peculiar Gem
+    228941, --Inert Peculiar Key
+    44124, --Peculiar Key
+    53156, --Key of Shadows
+    228965, --Astral Key
+    228966, --Starry-Eyed Goggles
+    228967, --Piece of Hate
 }
 
 local HallowsEnd = {
