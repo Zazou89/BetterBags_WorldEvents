@@ -986,6 +986,11 @@ local WoW20thAnniversary = {
     228965, --Astral Key
     228966, --Starry-Eyed Goggles
     228967, --Piece of Hate
+    228995, --Golden Muffin
+    228996, --Relic of Crystal Connections
+    229007, --Ancient Shaman Blood
+    229046, --Sentry Statue
+    229054, --Warden's Mirror
 }
 
 local HallowsEnd = {
