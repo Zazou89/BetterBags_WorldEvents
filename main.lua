@@ -1115,7 +1115,38 @@ local FeastOfWinterVeil = {
     21325, -- Mechanical Greench
 }
 
---We make sure that category names and content are always up to date.
+----------------------------------
+-- This is where the magic happens
+----------------------------------
+
+-- Color Categories
+local colorPrefix = "|cff1DDB7F"
+local colorPrefix_20thAnniversary = "|cff1dc7db"
+local resetColor = "|r"
+
+-- Category Mapping
+local categoryMappings = {
+    {list = Noblegarden, category = L("Noblegarden")},
+    {list = Darkmoonfaire, category = L("Darkmoon Faire")},
+    {list = LunarFestival, category = L("Lunar Festival")},
+    {list = MidsummerFireFestival, category = L("Midsummer Fire Festival")},
+    {list = Brewfest, category = L("Brewfest")},
+    {list = WoWRemixMoP, category = colorPrefix .. L("Remix") .. resetColor},
+    {list = WoWRemixMoP_metagems, category = colorPrefix .. L("Meta Gems") .. resetColor},
+    {list = WoWRemixMoP_cogwheelgems, category = colorPrefix .. L("Cogwheel Gems") .. resetColor},
+    {list = WoWRemixMoP_tinkergems, category = colorPrefix .. L("Tinker Gems") .. resetColor},
+    {list = WoWRemixMoP_prismaticgems, category = colorPrefix .. L("Prismatic Gems") .. resetColor},
+    {list = WoWRemixMoP_Buff, category = colorPrefix .. L("Enhancements") .. resetColor},
+    {list = WoWRemixMoP_Utility, category = colorPrefix .. L("Utilities") .. resetColor},
+    {list = WoWRemixMoP_Consumable, category = colorPrefix .. L("Consumables") .. resetColor},
+    {list = WoWRemixMoP_Threads, category = colorPrefix .. L("Threads") .. resetColor},
+    {list = RadiantEchoes, category = L("Radiant Echoes")},
+    {list = WoW20thAnniversary, category = colorPrefix_20thAnniversary .. L("20th Anniversary") .. resetColor},
+    {list = HallowsEnd, category = L("Hallow's End")},
+    {list = FeastOfWinterVeil, category = L("Feast of Winter Veil")},
+}
+
+-- Categories to update
 local CategoriesToUpdate = {
     "Remix",
     "Meta Gems",
@@ -1148,85 +1179,14 @@ local CategoriesToUpdate = {
     L("Feast of Winter Veil")
 }
 
+-- Delete outdated categories
 for _, category in ipairs(CategoriesToUpdate) do
     categories:DeleteCategory(category)
-end  
-
--- Color Categories
-
-local colorPrefix = "|cff1DDB7F"
-local colorPrefix_20thAnniversary = "|cff1dc7db"
-local resetColor = "|r"
-
---Loop
-for _, ItemID in pairs(Noblegarden) do
-    categories:AddItemToCategory(ItemID, L("Noblegarden"))
 end
 
-for _, ItemID in pairs(Darkmoonfaire) do
-    categories:AddItemToCategory(ItemID, L("Darkmoon Faire"))
-end
-
-for _, ItemID in pairs(LunarFestival) do
-    categories:AddItemToCategory(ItemID, L("Lunar Festival"))
-end
-
-for _, ItemID in pairs(MidsummerFireFestival) do
-    categories:AddItemToCategory(ItemID, L("Midsummer Fire Festival"))
-end
-
-for _, ItemID in pairs(Brewfest) do
-    categories:AddItemToCategory(ItemID, L("Brewfest"))
-end
-
-for _, ItemID in pairs(WoWRemixMoP) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Remix") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_metagems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Meta Gems") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_cogwheelgems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Cogwheel Gems") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_tinkergems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Tinker Gems") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_prismaticgems) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Prismatic Gems") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_Buff) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Enhancements") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_Utility) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Utilities") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_Consumable) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Consumables") .. resetColor)
-end
-
-for _, ItemID in pairs(WoWRemixMoP_Threads) do
-    categories:AddItemToCategory(ItemID, colorPrefix .. L("Threads") .. resetColor)
-end
-
-for _, ItemID in pairs(RadiantEchoes) do
-    categories:AddItemToCategory(ItemID, L("Radiant Echoes"))
-end
-
-for _, ItemID in pairs(WoW20thAnniversary) do
-    categories:AddItemToCategory(ItemID, colorPrefix_20thAnniversary .. L("20th Anniversary") .. resetColor)
-end
-
-for _, ItemID in pairs(HallowsEnd) do
-    categories:AddItemToCategory(ItemID, L("Hallow's End"))
-end
-
-for _, ItemID in pairs(FeastOfWinterVeil) do
-    categories:AddItemToCategory(ItemID, L("Feast of Winter Veil"))
+-- Add items to categories
+for _, mapping in ipairs(categoryMappings) do
+    for _, ItemID in pairs(mapping.list) do
+        categories:AddItemToCategory(ItemID, mapping.category)
+    end
 end

@@ -1,7 +1,7 @@
 # BetterBags - World Events
 This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates categories for all World Events, including :
 
-- 🔥NEW : Feast of Winter Veil (Stolen Present, Gifts, etc)
+- 🔥NEW: Feast of Winter Veil (Stolen Present, Gifts, etc)
 - 20th Anniversary (Keys, Secrets of Azeroth, Crates)
 - Hallow's End (Currency, Pumpkins, Masks, Consumables, etc)
 - Brewfest (Currency, Chest, Consumable, etc)
@@ -18,7 +18,7 @@ This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/
 
 # Discover my other plugins
 I've created a few plugins for BetterBags:
-- [BetterBags - Profession Knowledge (TWW)]https://www.curseforge.com/wow/addons/betterbags-profession-knowledge-tww) : don't leave your knowledge points lying around in your bags!
+- [BetterBags - Profession Knowledge (TWW)](https://www.curseforge.com/wow/addons/betterbags-profession-knowledge-tww) : don't leave your knowledge points lying around in your bags!
 - [BetterBags - Dragonflight Reputation](https://www.curseforge.com/wow/addons/betterbags-dragonfligh-reputation-insignia): categories for all Dragonflight reputation items
 - [BetterBags - Azerothian Archives](https://www.curseforge.com/wow/addons/betterbags-azerothian-archives): categories for all Azerothian Archives items like Big Dig Tomes
 - [BetterBags - Guardians of the Dream](https://www.curseforge.com/wow/addons/betterbags-guardians-of-the-dream) : categories all items from Guardians of the Dream like Dreamseeds
