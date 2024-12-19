@@ -1,7 +1,8 @@
 # BetterBags - World Events
 This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates categories for all World Events, including :
 
-- 🔥NEW : 20th Anniversary (Keys, Secrets of Azeroth, Crates)
+- 🔥NEW : Feast of Winter Veil (Stolen Present, Gifts, etc)
+- 20th Anniversary (Keys, Secrets of Azeroth, Crates)
 - Hallow's End (Currency, Pumpkins, Masks, Consumables, etc)
 - Brewfest (Currency, Chest, Consumable, etc)
 - Radiant Echoes (The War Within Pre-Patch Event)

@@ -24,6 +24,7 @@ local locales = {
         ["Brewfest"] = 'Brewfest',
         ["20th Anniversary"] = '20th Anniversary',
         ["Hallow's End"] = "Hallow's End",
+        ["Feast of Winter Veil"] = "Feast of Winter Veil",
         
     },
     ["frFR"] = {
@@ -44,6 +45,7 @@ local locales = {
         ["Brewfest"] = 'Fête des Brasseurs',  
         ["20th Anniversary"] = '20e anniversaire',
         ["Hallow's End"] = "Sanssaint",
+        ["Feast of Winter Veil"] = "Voile d'hiver",
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -62,7 +64,8 @@ local locales = {
         ["Radiant Echoes"] = 'Strahlenden Echos',
         ["Brewfest"] = 'Braufest',  
         ["20th Anniversary"] = 'Der 20. Geburtstag',  
-        ["Hallow's End"] = "Schlotternechte",  
+        ["Hallow's End"] = "Schlotternechte", 
+        ["Feast of Winter Veil"] = "Winterhauchfest", 
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -82,6 +85,7 @@ local locales = {
         ["Brewfest"] = 'CervaFest',  
         ["20th Anniversary"] = '20º Aniversário',
         ["Hallow's End"] = "Noturnália",  
+        ["Feast of Winter Veil"] = "Festa do Véu de Inverno", 
     }
 }
 
@@ -93,7 +97,10 @@ local function L(key)
     return locales[currentLocale] and locales[currentLocale][key] or locales["enUS"][key]
 end
 
---Noblegarden
+-----------------
+--EVENTS DATABASE
+-----------------
+
 local Noblegarden = {
     116258, --Mystical Spring Bouquet
     216874, --Loot-Filled Basket
@@ -1081,6 +1088,33 @@ local HallowsEnd = {
     128658, --Spooky Supplies
 }
 
+local FeastOfWinterVeil = {
+    --Stolen Present
+    73792, --Stolen Present
+    116762, --Stolen Present
+    93626, --Stolen Present
+    -- Gift
+    128670, -- Savage Gift
+    17726, -- Smokywood Pastures Special Gift
+    17685, -- Smokywood Pastures Sampler
+    17727, --Smokywood Pastures Gift Pack
+    21315, -- Smokywood Satchel
+    70938, -- Winter Veil Gift
+    43504, -- Winter Veil Gift
+    34426, -- Winter Veil Gift
+    21270, -- Gently Shaken Gift
+    21271, -- Gently Shaken Gift
+    21363, -- Festive Gift
+    -- Paper
+    17303, --Blue Ribboned Wrapping Paper
+    17304, --Green Ribboned Wrapping Paper
+    17307, --Purple Ribboned Wrapping Paper
+    -- Miscellaneous
+    21315, --Smokywook Satchel
+    21519, -- Mistletoe
+    21325, -- Mechanical Greench
+}
+
 --We make sure that category names and content are always up to date.
 local CategoriesToUpdate = {
     "Remix",
@@ -1110,7 +1144,8 @@ local CategoriesToUpdate = {
     L("Radiant Echoes"),
     L("Brewfest"),
     L("20th Anniversary"),
-    L("Hallow's End")
+    L("Hallow's End"),
+    L("Feast of Winter Veil")
 }
 
 for _, category in ipairs(CategoriesToUpdate) do
@@ -1190,4 +1225,8 @@ end
 
 for _, ItemID in pairs(HallowsEnd) do
     categories:AddItemToCategory(ItemID, L("Hallow's End"))
+end
+
+for _, ItemID in pairs(FeastOfWinterVeil) do
+    categories:AddItemToCategory(ItemID, L("Feast of Winter Veil"))
 end
