@@ -1110,7 +1110,6 @@ local FeastOfWinterVeil = {
     17304, --Green Ribboned Wrapping Paper
     17307, --Purple Ribboned Wrapping Paper
     -- Miscellaneous
-    21315, --Smokywook Satchel
     21519, -- Mistletoe
     21325, -- Mechanical Greench
 }
