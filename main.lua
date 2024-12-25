@@ -1094,24 +1094,32 @@ local FeastOfWinterVeil = {
     116762, --Stolen Present
     93626, --Stolen Present
     -- Gift
-    128670, -- Savage Gift
-    17726, -- Smokywood Pastures Special Gift
-    17685, -- Smokywood Pastures Sampler
+    128670, --Savage Gift
+    17726, --Smokywood Pastures Special Gift
+    17685, --Smokywood Pastures Sampler
     17727, --Smokywood Pastures Gift Pack
-    21315, -- Smokywood Satchel
-    70938, -- Winter Veil Gift
-    43504, -- Winter Veil Gift
-    34426, -- Winter Veil Gift
-    21270, -- Gently Shaken Gift
-    21271, -- Gently Shaken Gift
-    21363, -- Festive Gift
+    21315, --Smokywood Satchel
+    70938, --Winter Veil Gift
+    43504, --Winter Veil Gift
+    34426, --Winter Veil Gift
+    21270, --Gently Shaken Gift
+    21271, --Gently Shaken Gift
+    21363, --Festive Gift
+    218311, --Winter Veil Gift
+    218309, --Gently Shaken Gift
+    21191, --Carefully Wrapped Present
+    21327, --Ticking Present
+    21310, --Gaily Wrapped Present
     -- Paper
     17303, --Blue Ribboned Wrapping Paper
     17304, --Green Ribboned Wrapping Paper
     17307, --Purple Ribboned Wrapping Paper
     -- Miscellaneous
-    21519, -- Mistletoe
-    21325, -- Mechanical Greench
+    21519, --Mistletoe
+    21325, --Mechanical Greench
+    21213, --Preserved Holly
+    21328, --Wand of Holiday Cheer
+    128650, --"Merry Munchkin" Costume
 }
 
 ----------------------------------
