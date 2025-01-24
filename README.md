@@ -1,6 +1,8 @@
 # BetterBags - World Events
 This addon extends [BetterBags](https://www.curseforge.com/wow/addons/better-bags) by adding **categories for all World Events**, making it easier to organize event-related items.
 
+🆕 **New Feature:** You can now manage the visibility of categories in the BetterBags settings.
+
 ## 🎉 Supported World Events
 - Feast of Winter Veil (Stolen Present, Gifts, etc)
 - 20th Anniversary (Keys, Secrets of Azeroth, Crates)
