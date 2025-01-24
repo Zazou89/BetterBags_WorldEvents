@@ -7,6 +7,4 @@
 ## X-Curse-Project-ID: 996347
 ## IconTexture: Interface\Icons\temp
 
-localization.lua
-database.lua
 main.lua
