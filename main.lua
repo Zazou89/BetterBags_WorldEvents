@@ -32,36 +32,6 @@ local categoryMappings = {
     {list = Database.FeastOfWinterVeil, category = L("Feast of Winter Veil")},
 }
 
--- Categories to update
-local CategoriesToUpdate = {
-    "Remix",
-    "Meta Gems",
-    "Cogwheel Gems",
-    "Tinker Gems",
-    "Prismatic Gems",
-    "Enhancements",
-    "Utilities",
-    "Consumables",
-    "Noblegarden",
-    "Darkmoon Faire",
-    "Lunar Festival",
-    L("Noblegarden"),
-    L("Darkmoon Faire"),
-    L("Lunar Festival"),
-    L("Remix"),
-    L("Midsummer Fire Festival"),
-    L("Radiant Echoes"),
-    L("Brewfest"),
-    L("20th Anniversary"),
-    L("Hallow's End"),
-    L("Feast of Winter Veil")
-}
-
--- Delete outdated categories
-for _, category in ipairs(CategoriesToUpdate) do
-    categories:DeleteCategory(category)
-end
-
 -- Add items to categories
 for _, mapping in ipairs(categoryMappings) do
     for _, ItemID in pairs(mapping.list) do
