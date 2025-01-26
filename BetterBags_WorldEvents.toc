@@ -1,4 +1,4 @@
-## Interface: 110005, 110007
+## Interface: 110007
 ## Title: BetterBags - World Events
 ## Author: Zazou
 ## Version: @project-version@
@@ -7,4 +7,6 @@
 ## X-Curse-Project-ID: 996347
 ## IconTexture: Interface\Icons\temp
 
+database.lua
+localization.lua
 main.lua
