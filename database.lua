@@ -880,7 +880,6 @@ Database.WoW20thAnniversary = {
     228967, --Piece of Hate
     228995, --Golden Muffin
     228996, --Relic of Crystal Connections
-    229054, --Warden's Mirror
 }
 
 Database.HallowsEnd = {
