@@ -197,6 +197,7 @@ Database.LunarFestival = {
     21744, -- Lucky Rocket Cluster
     90000, -- Everlasting Horde Firework
     89999 -- Everlasting Alliance Firework
+    232901, -- Lunar Launcher
 }
 
 Database.WoWRemixMoP = {
