@@ -14,6 +14,7 @@ L.locales = {
         ["20th Anniversary"] = "20th Anniversary",
         ["Hallow's End"] = "Hallow's End",
         ["Feast of Winter Veil"] = "Feast of Winter Veil",
+        ["Love is in the Air"] = "Love is in the Air",
     },
     ["frFR"] = {
         ["Noblegarden"] = "Le Jardin des nobles",
@@ -26,6 +27,7 @@ L.locales = {
         ["20th Anniversary"] = "20e anniversaire",
         ["Hallow's End"] = "Sanssaint",
         ["Feast of Winter Veil"] = "Voile d'hiver",
+        ["Love is in the Air"] = "De l'amour dans l'air",
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -38,6 +40,7 @@ L.locales = {
         ["20th Anniversary"] = "Der 20. Geburtstag",
         ["Hallow's End"] = "Schlotternechte",
         ["Feast of Winter Veil"] = "Winterhauchfest",
+        ["Love is in the Air"] = "Liebe liegt in der Luft",
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -50,6 +53,7 @@ L.locales = {
         ["20th Anniversary"] = "20º Aniversário",
         ["Hallow's End"] = "Noturnália",
         ["Feast of Winter Veil"] = "Festa do Véu de Inverno",
+        ["Love is in the Air"] = "O Amor Está No Ar",
     }
 }
 

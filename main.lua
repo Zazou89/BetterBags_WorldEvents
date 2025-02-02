@@ -38,6 +38,7 @@ local categoryMappings = {
     {list = Database.WoW20thAnniversary, category = colorPrefix_20thAnniversary .. L:Get("20th Anniversary") .. resetColor},
     {list = Database.HallowsEnd, category = colorPrefix_Default .. L:Get("Hallow's End")},
     {list = Database.FeastOfWinterVeil, category = colorPrefix_Default .. L:Get("Feast of Winter Veil")},
+    {list = Database.LoveIsInTheAir, category = colorPrefix_Default .. L:Get("Love is in the Air")},  
 }
 
 -- Database to store category states

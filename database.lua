@@ -733,64 +733,64 @@ Database.Brewfest = {
     117393, --Keg-Shaped Treasure Chest
     169599, --Chowdown Champion Token
     --Food
-    34022,  
-    34021,  
-    34019,  
-    34018,  
-    37490,  
-    37493,  
-    37494,  
-    37491,  
-    37906,  
-    37909,  
-    37908,  
-    37907,  
-    37496,  
-    119209,  
-    33043,  
-    37489,  
-    37488,  
-    37498,  
-    37495,  
-    90426,  
-    37492,  
-    37499,  
-    37497,  
-    34020,  
-    34017,  
-    34065,  
-    33036,  
-    33035,  
-    33026,  
-    39476,  
-    34063,  
-    33032,  
-    33023,  
-    37750,  
-    39477,  
-    33028,  
-    138870,  
-    138868,  
-    33033,  
-    33024,  
-    33029,  
-    138867,  
-    33025,  
-    138869,  
-    46401,  
-    46403,  
-    34064,  
-    46399,  
-    46400,  
-    138871,  
-    46402,  
-    33030,  
-    33031,  
-    33034,  
-    33956,  
-    38587,  
-    33797,  
-    33929,
+    34022, --Stout Shrunken Head
+    34021, --Brewdoo Magic
+    34019, --Path of Brew
+    34018, --Long Stride Brew
+    37490, --Aromatic Honey Brew
+    37493, --Blackrock Lager
+    37494, --Stranglethorn Brew
+    37491, --Metok's Bubble Bock
+    37906, --Binary Brew
+    37909, --Lord of Frost's Private Label
+    37908, --Bartlett's Bitter Brew
+    37907, --Autumnal Acorn Ale
+    37496, --Binary Brew
+    119209, --Angry Brewfest Letter
+    33043, --The Essential Brewfest Pretzel
+    37489, --Izzard's Ever Flavor
+    37488, --Wild Winter Pilsner
+    37498, --Bartlett's Bitter Brew
+    37495, --Draenic Pale Ale
+    90426, --Brewhelm
+    37492, --Springtime Stout
+    37499, --Lord of Frost's Private Label
+    37497, --Autumnal Acorn Ale
+    34020, --Jungle River Water
+    34017, --Small Step Brew
+    34065, --Spiced Onion Cheese
+    33036, --Mudder's Milk
+    33035, --Ogre Mead
+    33026, --The Golden Link
+    39476, --Fresh Goblin Brewfest Hops
+    34063, --Dried Sausage
+    33032, --Thunderbrew Ale
+    33023, --Savory Sausage
+    37750, --Fresh Brewfest Hops
+    39477, --Fresh Dwarven Brewfest Hops
+    33028, --Barleybrew Light
+    138870, --Spirit Spirits
+    138868, --Mannoroth's Blood Red Ale
+    33033, --Thunderbrew Stout
+    33024, --Pickled Sausage
+    33029, --Barleybrew Dark
+    138867, --Shimmer Stout
+    33025, --Spicy Smoked Sausage
+    138869, --Gordok Bock
+    46401, --Crimson Stripe
+    46403, --Chuganpug's Delight
+    34064, --Succulent Sausage
+    46399, --Thunder's Plunder
+    46400, --Barleybrew Gold
+    138871, --Storming Saison
+    46402, --Promise of the Pandaren
+    33030, --Barleybrew Clear
+    33031, --Thunder 45
+    33034, --Gordok Grog
+    33956, --Echo Isles Pale Ale
+    38587, --Empty Brewfest Stein
+    33797, --Portable Brewfest Keg
+    33929, --Brewfest Brew
 }
 
 Database.WoW20thAnniversary = {
@@ -1004,6 +1004,93 @@ Database.FeastOfWinterVeil = {
     21213, --Preserved Holly
     21328, --Wand of Holiday Cheer
     128650, --"Merry Munchkin" Costume
+}
+
+Database.LoveIsInTheAir = {
+    --Holiday
+    54537, --Heart-Shaped Box
+    49927, --Love Token
+    50160, --Lovely Dress Box
+    116651, --True Love Prism
+    22261, --Love Fool
+    34480, --Romantic Picnic Basket
+    116648, --Manufactured Love Prism
+    22218, --Handful of Rose Petals
+    50161, --Dinner Suit Box
+    21819, --Heart Candy
+    49909, --Box of Chocolates
+    21830, --Empty Wrapper
+    21813, --Bag of Heart Candies
+    21816, --Heart Candy
+    21821, --Heart Candy
+    211430, --Bundle of Love Tokens
+    21818, --Heart Candy
+    21817, --Heart Candy
+    21820, --Heart Candy
+    211429, --Bundle of Love Tokens
+    21812, --Box of Chocolates
+    21822, --Heart Candy
+    21823, --Heart Candy
+    --Consumable
+    22236, --Buttermilk Delight
+    34258, --Lovely Fireworks
+    49860, --"Wizardry" Cologne
+    49938, --Lovely Darnassus Card
+    49859, --"Bravado" Cologne
+    22237, --Dark Desire
+    22239, --Sweet Surprise
+    49858, --"Forever" Perfume
+    49861, --"STALWART" Cologne
+    49936, --Lovely Stormwind Card
+    49939, --Lovely Orgrimmar Card
+    49940, --Lovely Ironforge Card
+    49856, --"VICTORY" Perfume
+    50163, --Lovely Rose
+    211362, --Rose of Independence
+    22238, --Very Berry Cream
+    49941, --Lovely Thunder Bluff Card
+    49942, --Lovely Exodar Card
+    49943, --Lovely Silvermoon City Card
+    211360, --Rose of Purity
+    49937, --Lovely Undercity Card
+    210695, --Delightful Chocolate Sample
+    211264, --Rose of Romance
+    211976, --Pink Brightbursts
+    49631, --Standard Apothecary Serving Kit
+    49857, --"Enchantress" Perfume
+    210318, --Chocolate Bon-Bomb
+    211361, --Rose of Joy
+    211364, --Rose of Tragedy
+    211351, --Rose of Friendship
+    211363, --Rose of Dreams Fulfilled
+    210927, --Fruity Cocktail Flight
+    --Junk
+    147907, --Heart-Shaped Carton
+    --Quest
+    49655, --Lovely Charm
+    49661, --Lovely Charm Collector's Kit
+    50131, --Snagglebolt's Air Analyzer
+    50320, --Faded Lovely Greeting Card
+    49351, --Perfume Neutralizer
+    49641, --Faded Lovely Greeting Card
+    49669, --Crown Cologne Sprayer
+    49915, --Snivel's Ledger
+    49352, --Cologne Neutralizer
+    210720, --Delicate Flower
+    49635, --Court Subpoena
+    49668, --Crown Perfume Sprayer
+    49867, --Crown Chemical Co. Supplies
+    210743, --Borrowed Camera
+    210928, --Healthy Body Package
+    210721, --Fanciful Flower
+    49670, --Crown Chocolate Sampler
+    210719, --Grizzly Hills Flower
+    210926, --Me, Myself, and Chocolate Package
+    210929, --Comfort Food Package
+    50130, --Snagglebolt's Khorium Bomb
+    --Mount
+    50250, --X-45 Heartbreaker
+    72146, --Swift Lovebird
 }
 
 -- If a category is called but not present, Lua will return an empty table.
