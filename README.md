@@ -23,6 +23,9 @@ This addon extends [BetterBags](https://www.curseforge.com/wow/addons/better-bag
 ## 🖼️ Preview
 ![Preview](https://i.imgur.com/UtsOpP0.png)
 
+## 🇬🇧 Hello, Bonjour, Hola
+The addon is available in English, French, German and Portuguese (Brazil).
+
 ## 🔥 Other BetterBags Addons
 Here are other addons I've created for BetterBags:
 - [BetterBags - World Events](https://www.curseforge.com/wow/addons/betterbags-world-events): Categorizes all World Events like Darkmoon Faire, Hallow's End, Winter Veil, etc.
