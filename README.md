@@ -1,17 +1,15 @@
 # BetterBags - World Events
 This addon extends [BetterBags](https://www.curseforge.com/wow/addons/better-bags) by adding **categories for all World Events**, making it easier to organize event-related items.
 
-**New Event:** 💘 Love is in the Air added !
-
 ## 🎉 Supported World Events
-- 🆕 Love is in the Air (Charms, Tokens, Consumables, etc)
+- Love is in the Air (Charms, Tokens, Consumables, etc)
 - Feast of Winter Veil (Stolen Present, Gifts, etc)
 - 20th Anniversary (Keys, Secrets of Azeroth, Crates)
 - Hallow's End (Currency, Pumpkins, Masks, Consumables, etc)
 - Brewfest (Currency, Chests, Consumables, etc)
 - Radiant Echoes (The War Within Pre-Patch Event)
 - WoW Remix: Mists of Pandaria (Gems, Caches, Flasks, Scrolls, Transmogs, etc)
-- Noblegarden
+- Noblegarden (Eggs, Cosmetics, Toys, Mounts, etc)
 - Darkmoon Faire
 - Lunar Festival
 - Midsummer Fire Festival
