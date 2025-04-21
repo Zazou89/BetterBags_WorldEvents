@@ -54,13 +54,12 @@ Database.Noblegarden = {
     216890, --Black Duck Disguise
     216897, --Brown Duck Disguise
     216902, --Yellow Duck Disguise
-    216900 --Pink Duck Disguise
+    216900, --Pink Duck Disguise
     213073, --Faded Floral Staff
     213076, --Orchid Bow-quet
     213064, --Paradise's Violet Axe
     213070, --Pristine Floral Stalk
     213067, --Violet Floral Edge
-
 }
 
 Database.Darkmoonfaire = {
