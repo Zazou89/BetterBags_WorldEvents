@@ -1098,6 +1098,22 @@ Database.LoveIsInTheAir = {
     72146, --Swift Lovebird
 }
 
+Database.WindsOfMysteriousFortune = {
+    --Satchels
+    235052, --Weathered Mysterious Satchel
+    235911, --Weathered Mysterious Satchel
+    236944, --Weathered Mysterious Satchel
+    235054, --Pristine Mysterious Satchel
+    -- Consumables
+    235842, --Diluted Potion of Revivification
+    235798, --Diluted Potion of Celerity
+    235839, --Diluted Potion of Tenacity
+    235815, --Diluted Potion of Swiftstrike
+    239142, --Bottle of Mysterious Wisdom
+    -- Miscellaneous
+    235701, --Decaying Mecha-Scrapper Construction Kit
+}
+
 -- If a category is called but not present, Lua will return an empty table.
 setmetatable(Database, {
     __index = function()

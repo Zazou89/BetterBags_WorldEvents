@@ -15,6 +15,7 @@ L.locales = {
         ["Hallow's End"] = "Hallow's End",
         ["Feast of Winter Veil"] = "Feast of Winter Veil",
         ["Love is in the Air"] = "Love is in the Air",
+        ["Winds of Mysterious Fortune"] ="Winds of Mysterious Fortune",
     },
     ["frFR"] = {
         ["Noblegarden"] = "Le Jardin des nobles",
@@ -28,6 +29,7 @@ L.locales = {
         ["Hallow's End"] = "Sanssaint",
         ["Feast of Winter Veil"] = "Voile d'hiver",
         ["Love is in the Air"] = "De l'amour dans l'air",
+        ["Winds of Mysterious Fortune"] ="Vents de bonne aventure mystérieuse",
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -41,6 +43,7 @@ L.locales = {
         ["Hallow's End"] = "Schlotternechte",
         ["Feast of Winter Veil"] = "Winterhauchfest",
         ["Love is in the Air"] = "Liebe liegt in der Luft",
+        ["Winds of Mysterious Fortune"] ="Winde des mysteriösen Glücks",
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -54,6 +57,7 @@ L.locales = {
         ["Hallow's End"] = "Noturnália",
         ["Feast of Winter Veil"] = "Festa do Véu de Inverno",
         ["Love is in the Air"] = "O Amor Está No Ar",
+        ["Winds of Mysterious Fortune"] ="Ventos da Fortuna Misteriosa",
     }
 }
 

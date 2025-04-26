@@ -28,17 +28,18 @@ local resetColor = "|r"
 
 -- Category Mapping
 local categoryMappings = {
-    {list = Database.Noblegarden, category = colorPrefix_Default .. L:Get("Noblegarden")},
-    {list = Database.Darkmoonfaire, category = colorPrefix_Default .. L:Get("Darkmoon Faire")},
-    {list = Database.LunarFestival, category = colorPrefix_Default .. L:Get("Lunar Festival")},
-    {list = Database.MidsummerFireFestival, category = colorPrefix_Default .. L:Get("Midsummer Fire Festival")},
-    {list = Database.Brewfest, category = colorPrefix_Default .. L:Get("Brewfest")},
+    {list = Database.Noblegarden, category = colorPrefix_Default .. L:Get("Noblegarden") .. resetColor},
+    {list = Database.Darkmoonfaire, category = colorPrefix_Default .. L:Get("Darkmoon Faire") .. resetColor},
+    {list = Database.LunarFestival, category = colorPrefix_Default .. L:Get("Lunar Festival") .. resetColor},
+    {list = Database.MidsummerFireFestival, category = colorPrefix_Default .. L:Get("Midsummer Fire Festival") .. resetColor},
+    {list = Database.Brewfest, category = colorPrefix_Default .. L:Get("Brewfest") .. resetColor},
     {list = Database.WoWRemixMoP, category = colorPrefix_RemixMoP .. L:Get("Remix MoP") .. resetColor},
-    {list = Database.RadiantEchoes, category = colorPrefix_Default .. L:Get("Radiant Echoes")},
+    {list = Database.RadiantEchoes, category = colorPrefix_Default .. L:Get("Radiant Echoes") .. resetColor},
     {list = Database.WoW20thAnniversary, category = colorPrefix_20thAnniversary .. L:Get("20th Anniversary") .. resetColor},
-    {list = Database.HallowsEnd, category = colorPrefix_Default .. L:Get("Hallow's End")},
-    {list = Database.FeastOfWinterVeil, category = colorPrefix_Default .. L:Get("Feast of Winter Veil")},
-    {list = Database.LoveIsInTheAir, category = colorPrefix_Default .. L:Get("Love is in the Air")},  
+    {list = Database.HallowsEnd, category = colorPrefix_Default .. L:Get("Hallow's End") .. resetColor},
+    {list = Database.FeastOfWinterVeil, category = colorPrefix_Default .. L:Get("Feast of Winter Veil") .. resetColor},
+    {list = Database.LoveIsInTheAir, category = colorPrefix_Default .. L:Get("Love is in the Air") .. resetColor},
+    {list = Database.WindsOfMysteriousFortune, category = colorPrefix_Default .. L:Get("Winds of Mysterious Fortune") .. resetColor}, 
 }
 
 -- Database to store category states
