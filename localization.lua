@@ -16,6 +16,7 @@ L.locales = {
         ["Feast of Winter Veil"] = "Feast of Winter Veil",
         ["Love is in the Air"] = "Love is in the Air",
         ["Winds of Mysterious Fortune"] ="Winds of Mysterious Fortune",
+        ["Dastardly Duos"] = "Dastardly Duos",
     },
     ["frFR"] = {
         ["Noblegarden"] = "Le Jardin des nobles",
@@ -30,6 +31,7 @@ L.locales = {
         ["Feast of Winter Veil"] = "Voile d'hiver",
         ["Love is in the Air"] = "De l'amour dans l'air",
         ["Winds of Mysterious Fortune"] ="Vents de bonne aventure mystérieuse",
+        ["Dastardly Duos"] = "Duos infâmes",
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -44,6 +46,7 @@ L.locales = {
         ["Feast of Winter Veil"] = "Winterhauchfest",
         ["Love is in the Air"] = "Liebe liegt in der Luft",
         ["Winds of Mysterious Fortune"] ="Winde des mysteriösen Glücks",
+        ["Dastardly Duos"] = "Durchtriebene Duos",
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -58,6 +61,7 @@ L.locales = {
         ["Feast of Winter Veil"] = "Festa do Véu de Inverno",
         ["Love is in the Air"] = "O Amor Está No Ar",
         ["Winds of Mysterious Fortune"] ="Ventos da Fortuna Misteriosa",
+        ["Dastardly Duos"] = "Duplas da Discórdia",
     }
 }
 

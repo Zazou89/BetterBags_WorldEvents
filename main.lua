@@ -40,6 +40,7 @@ local categoryMappings = {
     {list = Database.FeastOfWinterVeil, category = colorPrefix_Default .. L:Get("Feast of Winter Veil") .. resetColor},
     {list = Database.LoveIsInTheAir, category = colorPrefix_Default .. L:Get("Love is in the Air") .. resetColor},
     {list = Database.WindsOfMysteriousFortune, category = colorPrefix_Default .. L:Get("Winds of Mysterious Fortune") .. resetColor}, 
+    {list = Database.DastardlyDuos, category = colorPrefix_Default .. L:Get("Dastardly Duos") .. resetColor}, 
 }
 
 -- Database to store category states

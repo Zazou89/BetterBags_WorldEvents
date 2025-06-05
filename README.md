@@ -1,7 +1,7 @@
 # BetterBags - World Events
 This addon extends [BetterBags](https://www.curseforge.com/wow/addons/better-bags) by adding **categories for all World Events**, making it easier to organize event-related items.
 
-**New Event:** Winds of Mysterious Fortune added !
+**New Event:** 🎭 Dastardly Duos added !
 
 ## 🎉 Supported World Events
 - Love is in the Air (Charms, Tokens, Consumables, etc)
@@ -16,6 +16,7 @@ This addon extends [BetterBags](https://www.curseforge.com/wow/addons/better-bag
 - Lunar Festival
 - Midsummer Fire Festival
 - Winds of Mysterious Fortune (Satchels, Consumables)
+- Dastardly Duos
 - ...More events coming soon!
 
 ## ⚙️ Features

@@ -1114,6 +1114,18 @@ Database.WindsOfMysteriousFortune = {
     235701, --Decaying Mecha-Scrapper Construction Kit
 }
 
+Database.DastardlyDuos = {
+    235665, --Burner Clock
+    237384, --Master Key
+    237774, --Bullhorn of Calling
+    239007, --Dastardly Banner
+    239440, --Dastardly Prize Purse
+    239018, --Winner's Podium
+    239019, --Mean-Ball Ball Bag
+    239020, --Tyrannotort's Treat
+    237385, --BIG Burner Clock
+}
+
 -- If a category is called but not present, Lua will return an empty table.
 setmetatable(Database, {
     __index = function()
