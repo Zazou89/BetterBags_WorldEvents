@@ -17,6 +17,7 @@ L.locales = {
         ["Love is in the Air"] = "Love is in the Air",
         ["Winds of Mysterious Fortune"] ="Winds of Mysterious Fortune",
         ["Dastardly Duos"] = "Dastardly Duos",
+        ["A Greedy Emissary"] = "A Greedy Emissary",
     },
     ["frFR"] = {
         ["Noblegarden"] = "Le Jardin des nobles",
@@ -32,6 +33,7 @@ L.locales = {
         ["Love is in the Air"] = "De l'amour dans l'air",
         ["Winds of Mysterious Fortune"] ="Vents de bonne aventure mystérieuse",
         ["Dastardly Duos"] = "Duos infâmes",
+        ["A Greedy Emissary"] = "Émissaire cupide",
     },
     ["deDE"] = {
         ["Noblegarden"] = "Nobelgartenfest",
@@ -47,6 +49,7 @@ L.locales = {
         ["Love is in the Air"] = "Liebe liegt in der Luft",
         ["Winds of Mysterious Fortune"] ="Winde des mysteriösen Glücks",
         ["Dastardly Duos"] = "Durchtriebene Duos",
+        ["A Greedy Emissary"] = "Ein gieriger Abgesandter",
     },
     ["ptBR"] = {
         ["Noblegarden"] = "Jardinova",
@@ -62,6 +65,7 @@ L.locales = {
         ["Love is in the Air"] = "O Amor Está No Ar",
         ["Winds of Mysterious Fortune"] ="Ventos da Fortuna Misteriosa",
         ["Dastardly Duos"] = "Duplas da Discórdia",
+        ["A Greedy Emissary"] = "Um Emissário Ganancioso",
     }
 }
 

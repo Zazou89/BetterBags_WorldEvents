@@ -14,7 +14,7 @@ local Events = addon:GetModule('Events')
 local Context = addon:GetModule('Context')
 
 -- Localization
-local L = _G.L or {} 
+local L = _G.L or {Get = function(self, key) return key end}
 
 ----------------------------------
 -- This is where the magic happens
@@ -41,6 +41,7 @@ local categoryMappings = {
     {list = Database.LoveIsInTheAir, category = colorPrefix_Default .. L:Get("Love is in the Air") .. resetColor},
     {list = Database.WindsOfMysteriousFortune, category = colorPrefix_Default .. L:Get("Winds of Mysterious Fortune") .. resetColor}, 
     {list = Database.DastardlyDuos, category = colorPrefix_Default .. L:Get("Dastardly Duos") .. resetColor}, 
+    {list = Database.AGreedyEmissary, category = colorPrefix_Default .. L:Get("A Greedy Emissary") .. resetColor}, 
 }
 
 -- Database to store category states

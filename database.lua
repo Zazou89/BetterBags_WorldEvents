@@ -1126,6 +1126,51 @@ Database.DastardlyDuos = {
     237385, --BIG Burner Clock
 }
 
+Database.AGreedyEmissary = {
+    206003, --Horadric Haversack  
+    206007, --Treasure Nabbin' Bag  
+    246242, --Blood-Wrapped Treasure Bag  
+    206018, --Baa'lial Soulstone  
+    245589, --Hellcaller Chest  
+    245638, --Explosive Elixir  
+    245635, --Rich Elixir  
+    245637, --Windforce Elixir  
+    245654, --Connected Elixir  
+    245636, --Deafening Elixir  
+    245643, --Storming Elixir  
+    245614, --Trapper Elixir  
+    245639, --Arcane Elixir  
+    245642, --Blistering Elixir  
+    245630, --Ghostly Elixir  ***
+    245633, --Sneaky Elixir   ***
+    245640, --Tempestuous Elixir  
+    245634, --Cursing Elixir
+    246127, --Healthy Elixir
+    245590, --Magma Elixir
+    245632, --Rallying Elixir
+    206039, --Enmity Bundle  
+    206008, --Nightmare Banner  
+    142542, --Tome of Town Portal  
+    245899, --Bat's Grand Charm  
+    245891, --Small Charm of Inertia  
+    245924, --Mongoose's Grand Charm  
+    245888, --Serpent's Grand Charm  
+    245892, --Small Charm of Life  
+    245894, --Small Charm of Proficiency  
+    245887, --Stalwart's Grand Charm  
+    245889, --Large Charm of Dexterity  
+    245896, --Small Charm of Adaptability  
+    245893, --Small Charm of Alacrity  
+    245895, --Small Charm of Savagery  
+    245749, --Large Charm of Intelligence  
+    245890, --Large Charm of Strength  
+    246264, --Inarius' Charger  
+    206275, --Wirt's Haunted Leg  
+    206005, --Wirt's Fightin' Leg  
+    143327, --Livestock Lochaber Axe  
+    206276, --Wirt's Last Leg  
+}
+
 -- If a category is called but not present, Lua will return an empty table.
 setmetatable(Database, {
     __index = function()
