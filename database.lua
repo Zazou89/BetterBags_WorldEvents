@@ -237,7 +237,7 @@ Database.WoWRemix = {
     238727, --Nostwin's Voucher
     147869, --Fel Meteorite
     238726, --Drake Treat
-    }
+}
 Database.WoWRemixCache = {
     237812, --Cache of Infinite Treasure
     239224, --Cache of Infinite Treasure
@@ -253,6 +253,9 @@ Database.WoWRemixCache = {
     246815, --Lesser Bronze Cache
     246813, --Greater Bronze Cache
     248247, --Cache of Infinite Power
+    246936, --Resonant Epoch Memento
+    256763, --Cache from the Infinite's Armory
+    251821, --Cache of Infinite Power
 }
 Database.WoWRemixArtifact = {
     246937, --Perfected Epoch Memento
