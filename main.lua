@@ -36,6 +36,8 @@ local categoryMappings = {
     {list = Database.WoWRemix, category = colorPrefix_Remix .. L:Get("Remix") .. resetColor},
     {list = Database.WoWRemixCache, category = colorPrefix_Remix .. L:Get("Remix: Cache") .. resetColor},
     {list = Database.WoWRemixArtifact, category = colorPrefix_Remix .. L:Get("Remix: Artifact") .. resetColor},
+    {list = Database.WoWRemixReputation, category = colorPrefix_Remix .. L:Get("Remix: Reputation") .. resetColor},
+    {list = Database.WoWRemixBuff, category = colorPrefix_Remix .. L:Get("Remix: Buff") .. resetColor},
     {list = Database.RadiantEchoes, category = colorPrefix_Default .. L:Get("Radiant Echoes") .. resetColor},
     {list = Database.WoW20thAnniversary, category = colorPrefix_20thAnniversary .. L:Get("20th Anniversary") .. resetColor},
     {list = Database.HallowsEnd, category = colorPrefix_Default .. L:Get("Hallow's End") .. resetColor},

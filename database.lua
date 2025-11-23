@@ -216,6 +216,24 @@ Database.WoWRemix = {
     224461, --Bones of Mannoroth
     94221,  --Shan'ze Ritual Stone
     219940, --Meteor Chip
+    --Consumable
+    217904, --Timerunner's Draught of Power
+    217905, --Timerunner's Draught of Health
+    211254, --Timerunner's Bandage
+    250316, --Everlasting Nosh
+    254320, --Elixir of Remembered Sight
+    238727, --Nostwin's Voucher
+    147869, --Fel Meteorite
+    238726, --Drake Treat
+    --Misc
+    249400, --Stack of Chronoqueries
+    --Tmog items
+    242370, --Horns of the First Satyr
+    253305, --Felwarped Slab
+    253304, --Cosmic Soulsliver
+    253306, --Everflame of Hatred
+}
+Database.WoWRemixBuff = {
     -- Buffs
     217731, --Timeless Scroll of Mystic Power
     217605, --Timeless Scroll of Intellect
@@ -228,16 +246,10 @@ Database.WoWRemix = {
     217928, --Timeless Scroll of Resurrection
     217929, --Timeless Scroll of Cleansing
     217956, --Timeless Scroll of Summoning
-    --Consumable
-    217904, --Timerunner's Draught of Power
-    217905, --Timerunner's Draught of Health
-    211254, --Timerunner's Bandage
-    250316, --Everlasting Nosh
-    254320, --Elixir of Remembered Sight
-    238727, --Nostwin's Voucher
-    147869, --Fel Meteorite
-    238726, --Drake Treat
+
+
 }
+
 Database.WoWRemixCache = {
     237812, --Cache of Infinite Treasure
     239224, --Cache of Infinite Treasure
@@ -263,6 +275,18 @@ Database.WoWRemixArtifact = {
     245925, --Artifactium Sand
     254267, --Fragmented Memento of Epoch Challenges
 }
+Database.WoWRemixReputation = {
+    249782, --Valarjar Champion's Insignia
+    249786, --Dreamweaver Champion's Insignia
+    249785, --Highmountain Tribe Champion's Insignia
+    249781, --Wardens Champion's Insignia
+    249783, --Nightfallen Champion's Insignia
+    249787, --Court of Farondis Champion's Insignia
+    249784, --Legionfall Champion's Insignia
+    249780, --Army of the Light Champion's Insignia
+    249788, --Argussian Reach Champion's Insignia
+}
+
 Database.MidsummerFireFestival = {
     188701, -- Fire Festival Batons
     23326, -- Midsummer Sausage
