@@ -1,8 +1,6 @@
 # BetterBags - World Events
 This addon extends [BetterBags](https://www.curseforge.com/wow/addons/better-bags) by adding **categories for all World Events**, making it easier to organize event-related items.
 
-**New Event:** 💰 A Greedy Emissary added !
-
 ## 🎉 Supported World Events
 - Love is in the Air (Charms, Tokens, Consumables, etc)
 - Feast of Winter Veil (Stolen Present, Gifts, etc)
